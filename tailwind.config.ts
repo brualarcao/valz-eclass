@@ -5,7 +5,7 @@ export default <Partial<Config>>{
     extend: {
       colors: {
         brand: {
-          primary: '#26F0A1',
+          primary: '#6366f1',
           secondary: '#1A9E6B',
           dark: '#0A0A0A',
           surface: '#141414',

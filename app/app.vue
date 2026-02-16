@@ -6,7 +6,7 @@
 
 <script setup lang="ts">
 useHead({
-  titleTemplate: (title) => title ? `${title} - Valz eClass` : 'Valz eClass - Área do Aluno',
+  titleTemplate: (title) => title ? `${title} - Valz eClass` : 'Valz eClass - Login',
   htmlAttrs: {
     lang: 'pt-BR'
   }
