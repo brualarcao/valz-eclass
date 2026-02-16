@@ -144,9 +144,9 @@
           </div>
         </div>
 
-        <SignInButton type="submit" :loading="loading">
+        <ButtonAction type="submit" :loading="loading">
           Sign In
-        </SignInButton>
+        </ButtonAction>
       </form>
 
       <p class="text-center text-text-secondary text-sm mt-6">
