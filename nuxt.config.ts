@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   nitro: {
     static: true,
   },
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/icon'],
   typescript: {
     strict: true
   },
