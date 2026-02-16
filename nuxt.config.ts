@@ -8,6 +8,9 @@ export default defineNuxtConfig({
     static: true,
   },
   modules: ['@nuxtjs/tailwindcss'],
+  typescript: {
+    strict: true
+  },
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true }
 })
