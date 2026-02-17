@@ -3,19 +3,14 @@
     class="w-full bg-brand-dark border-b border-brand-border px-6 py-4 flex items-center justify-between"
   >
     <NuxtLink
-      to="/"
+      to="/dashboard"
       class="flex items-center gap-2 text-text-primary font-bold text-xl hover:opacity-90 transition-opacity"
     >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-        fill="currentColor"
-        class="w-7 h-7 text-brand-primary"
-        aria-hidden="true"
+      <img
+        src="/valz-icon.png"
+        alt="Valz logo"
+        class="w-auto h-10"
       >
-        <path d="M2 2l10 20 10-20h-6l-4 8-4-8H2z" />
-      </svg>
-      <span>Valz eClass</span>
     </NuxtLink>
 
     <div class="flex items-center gap-4">
