@@ -1,0 +1,4273 @@
+[
+  {
+    "course": {
+      "id": "1",
+      "title": "Advanced Vue 3 Patterns",
+      "shortDescription": "Master composition API, reusability techniques, and state management with Vue 3.",
+      "coverImage": "https://placehold.co/400x200/141414/1A9E6B?text=Vue+3",
+      "category": {
+        "name": "DEVELOPMENT",
+        "icon": "heroicons:code-bracket"
+      },
+      "lessonsCount": 12,
+      "duration": "4h 30m",
+      "progress": 45,
+      "statusBadge": "Advanced"
+    },
+    "modules": [
+      {
+        "id": "m1",
+        "title": "Module 1: Reactivity & Composition API",
+        "lessons": [
+          {
+            "id": "l-1",
+            "title": "Deep Dive into Vue 3 Reactivity",
+            "duration": "5:10",
+            "description": "Understanding how Proxies track changes in the DOM.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 1,
+            "materials": [
+              {
+                "id": "mat-1-1",
+                "name": "Lesson_1_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_1_Slides.pdf"
+              },
+              {
+                "id": "mat-1-2",
+                "name": "Source_Code_1.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_1.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-2",
+            "title": "Ref vs Reactive: Best Practices",
+            "duration": "6:12",
+            "description": "Learning when to use Ref and when to use Reactive objects.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 2,
+            "materials": [
+              {
+                "id": "mat-2-1",
+                "name": "Lesson_2_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_2_Slides.pdf"
+              },
+              {
+                "id": "mat-2-2",
+                "name": "Source_Code_2.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_2.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-3",
+            "title": "Advanced Computed & Watchers",
+            "duration": "7:14",
+            "description": "Handling side effects and performance optimization.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 3,
+            "materials": [
+              {
+                "id": "mat-3-1",
+                "name": "Lesson_3_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_3_Slides.pdf"
+              },
+              {
+                "id": "mat-3-2",
+                "name": "Source_Code_3.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_3.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-4",
+            "title": "Lifecycle Hooks in setup()",
+            "duration": "8:16",
+            "description": "Mastering component lifecycle with the new API.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 4,
+            "materials": [
+              {
+                "id": "mat-4-1",
+                "name": "Lesson_4_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_4_Slides.pdf"
+              },
+              {
+                "id": "mat-4-2",
+                "name": "Source_Code_4.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_4.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-5",
+            "title": "Building Reusable Composables",
+            "duration": "9:18",
+            "description": "The logic extraction pattern for cleaner components.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 5,
+            "materials": [
+              {
+                "id": "mat-5-1",
+                "name": "Lesson_5_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_5_Slides.pdf"
+              },
+              {
+                "id": "mat-5-2",
+                "name": "Source_Code_5.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_5.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-6",
+            "title": "Template Refs & DOM Interaction",
+            "duration": "10:20",
+            "description": "Safe ways to interact with HTML elements in Vue 3.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": false,
+            "order": 6,
+            "materials": [
+              {
+                "id": "mat-6-1",
+                "name": "Lesson_6_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_6_Slides.pdf"
+              },
+              {
+                "id": "mat-6-2",
+                "name": "Source_Code_6.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_6.zip"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "m2",
+        "title": "Module 2: Design Patterns & State",
+        "lessons": [
+          {
+            "id": "l-7",
+            "title": "Compound Components Pattern",
+            "duration": "10:00",
+            "description": "Creating flexible and highly customizable components.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 7,
+            "materials": [
+              {
+                "id": "mat-7-1",
+                "name": "Lesson_7_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_7_Slides.pdf"
+              },
+              {
+                "id": "mat-7-2",
+                "name": "Source_Code_7.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_7.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-8",
+            "title": "Renderless Components Technique",
+            "duration": "11:03",
+            "description": "Separating behavior logic from UI representation.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 8,
+            "materials": [
+              {
+                "id": "mat-8-1",
+                "name": "Lesson_8_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_8_Slides.pdf"
+              },
+              {
+                "id": "mat-8-2",
+                "name": "Source_Code_8.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_8.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-9",
+            "title": "Pinia Architecture for Large Apps",
+            "duration": "12:06",
+            "description": "Scaling your global state with the Pinia store.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 9,
+            "materials": [
+              {
+                "id": "mat-9-1",
+                "name": "Lesson_9_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_9_Slides.pdf"
+              },
+              {
+                "id": "mat-9-2",
+                "name": "Source_Code_9.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_9.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-10",
+            "title": "Handling Async States with Suspense",
+            "duration": "13:09",
+            "description": "Modern patterns for loading data and fallback UI.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 10,
+            "materials": [
+              {
+                "id": "mat-10-1",
+                "name": "Lesson_10_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_10_Slides.pdf"
+              },
+              {
+                "id": "mat-10-2",
+                "name": "Source_Code_10.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_10.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-11",
+            "title": "Optimizing with v-memo & v-once",
+            "duration": "14:12",
+            "description": "Improving performance in large lists and heavy UI.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 11,
+            "materials": [
+              {
+                "id": "mat-11-1",
+                "name": "Lesson_11_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_11_Slides.pdf"
+              },
+              {
+                "id": "mat-11-2",
+                "name": "Source_Code_11.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_11.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-12",
+            "title": "Final Project: Modular Dashboard",
+            "duration": "15:15",
+            "description": "Combining all patterns into a scalable enterprise app.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 12,
+            "materials": [
+              {
+                "id": "mat-12-1",
+                "name": "Lesson_12_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_12_Slides.pdf"
+              },
+              {
+                "id": "mat-12-2",
+                "name": "Source_Code_12.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_12.zip"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course": {
+      "id": "2",
+      "title": "UI/UX Principles 101",
+      "shortDescription": "Understanding visual hierarchy, color theory, and user-centered design.",
+      "coverImage": "https://placehold.co/400x200/141414/6366f1?text=UI+UX",
+      "category": {
+        "name": "DESIGN",
+        "icon": "heroicons:paint-brush"
+      },
+      "lessonsCount": 8,
+      "duration": "2h 15m",
+      "progress": 100
+    },
+    "modules": [
+      {
+        "id": "m1",
+        "title": "Module 1: Visual Foundation & Design Laws",
+        "lessons": [
+          {
+            "id": "l-1",
+            "title": "Visual Hierarchy & Focal Points",
+            "duration": "5:10",
+            "description": "Guiding the user's eyes through size and contrast.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 1,
+            "materials": [
+              {
+                "id": "mat-1-1",
+                "name": "Lesson_1_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_1_Slides.pdf"
+              },
+              {
+                "id": "mat-1-2",
+                "name": "Source_Code_1.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_1.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-2",
+            "title": "Color Theory & Accessibility",
+            "duration": "6:12",
+            "description": "Creating palettes that work for everyone.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 2,
+            "materials": [
+              {
+                "id": "mat-2-1",
+                "name": "Lesson_2_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_2_Slides.pdf"
+              },
+              {
+                "id": "mat-2-2",
+                "name": "Source_Code_2.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_2.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-3",
+            "title": "Typography & Readability",
+            "duration": "7:14",
+            "description": "Selecting fonts and scales for digital interfaces.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 3,
+            "materials": [
+              {
+                "id": "mat-3-1",
+                "name": "Lesson_3_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_3_Slides.pdf"
+              },
+              {
+                "id": "mat-3-2",
+                "name": "Source_Code_3.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_3.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-4",
+            "title": "Spacing Systems & Grids",
+            "duration": "8:16",
+            "description": "Using the 8pt grid for consistent UI development.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 4,
+            "materials": [
+              {
+                "id": "mat-4-1",
+                "name": "Lesson_4_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_4_Slides.pdf"
+              },
+              {
+                "id": "mat-4-2",
+                "name": "Source_Code_4.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_4.zip"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "m2",
+        "title": "Module 2: Prototyping & UX Flow",
+        "lessons": [
+          {
+            "id": "l-5",
+            "title": "Information Architecture",
+            "duration": "10:00",
+            "description": "Organizing content for intuitive navigation.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": true,
+            "locked": false,
+            "order": 5,
+            "materials": [
+              {
+                "id": "mat-5-1",
+                "name": "Lesson_5_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_5_Slides.pdf"
+              },
+              {
+                "id": "mat-5-2",
+                "name": "Source_Code_5.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_5.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-6",
+            "title": "Interactive Prototyping",
+            "duration": "11:03",
+            "description": "Turning static designs into clickable experiences.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": true,
+            "locked": false,
+            "order": 6,
+            "materials": [
+              {
+                "id": "mat-6-1",
+                "name": "Lesson_6_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_6_Slides.pdf"
+              },
+              {
+                "id": "mat-6-2",
+                "name": "Source_Code_6.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_6.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-7",
+            "title": "Usability Testing Methods",
+            "duration": "12:06",
+            "description": "Validating your design with real users.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": true,
+            "locked": false,
+            "order": 7,
+            "materials": [
+              {
+                "id": "mat-7-1",
+                "name": "Lesson_7_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_7_Slides.pdf"
+              },
+              {
+                "id": "mat-7-2",
+                "name": "Source_Code_7.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_7.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-8",
+            "title": "Developer Handover Best Practices",
+            "duration": "13:09",
+            "description": "Bridging the gap between design and code.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": true,
+            "locked": false,
+            "order": 8,
+            "materials": [
+              {
+                "id": "mat-8-1",
+                "name": "Lesson_8_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_8_Slides.pdf"
+              },
+              {
+                "id": "mat-8-2",
+                "name": "Source_Code_8.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_8.zip"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course": {
+      "id": "3",
+      "title": "Node.js Microservices",
+      "shortDescription": "Building scalable and resilient backend systems using modern Node.js.",
+      "coverImage": "https://placehold.co/400x200/141414/7c3aed?text=Node",
+      "category": {
+        "name": "BACKEND",
+        "icon": "heroicons:server"
+      },
+      "lessonsCount": 24,
+      "duration": "8h 45m",
+      "progress": 20,
+      "statusBadge": "New"
+    },
+    "modules": [
+      {
+        "id": "m1",
+        "title": "Module 1: Microservices Architecture",
+        "lessons": [
+          {
+            "id": "l-1",
+            "title": "Monolithic vs Microservices",
+            "duration": "5:10",
+            "description": "Pros, cons, and when to switch architecture.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 1,
+            "materials": [
+              {
+                "id": "mat-1-1",
+                "name": "Lesson_1_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_1_Slides.pdf"
+              },
+              {
+                "id": "mat-1-2",
+                "name": "Source_Code_1.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_1.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-2",
+            "title": "HTTP & gRPC Communication",
+            "duration": "6:12",
+            "description": "Handling synchronous calls between services.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 2,
+            "materials": [
+              {
+                "id": "mat-2-1",
+                "name": "Lesson_2_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_2_Slides.pdf"
+              },
+              {
+                "id": "mat-2-2",
+                "name": "Source_Code_2.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_2.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-3",
+            "title": "API Gateway with NestJS",
+            "duration": "7:14",
+            "description": "Centralizing entry points and rate limiting.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 3,
+            "materials": [
+              {
+                "id": "mat-3-1",
+                "name": "Lesson_3_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_3_Slides.pdf"
+              },
+              {
+                "id": "mat-3-2",
+                "name": "Source_Code_3.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_3.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-4",
+            "title": "Dockerizing Node Services",
+            "duration": "8:16",
+            "description": "Multi-stage builds for production-ready containers.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 4,
+            "materials": [
+              {
+                "id": "mat-4-1",
+                "name": "Lesson_4_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_4_Slides.pdf"
+              },
+              {
+                "id": "mat-4-2",
+                "name": "Source_Code_4.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_4.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-5",
+            "title": "Service Discovery Patterns",
+            "duration": "9:18",
+            "description": "How services locate each other dynamically.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": false,
+            "order": 5,
+            "materials": [
+              {
+                "id": "mat-5-1",
+                "name": "Lesson_5_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_5_Slides.pdf"
+              },
+              {
+                "id": "mat-5-2",
+                "name": "Source_Code_5.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_5.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-6",
+            "title": "Database Isolation & Saga",
+            "duration": "10:20",
+            "description": "Managing data consistency across services.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 6,
+            "materials": [
+              {
+                "id": "mat-6-1",
+                "name": "Lesson_6_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_6_Slides.pdf"
+              },
+              {
+                "id": "mat-6-2",
+                "name": "Source_Code_6.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_6.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-7",
+            "title": "Health Checks & Monitoring",
+            "duration": "11:22",
+            "description": "Using Prometheus and Grafana for observability.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 7,
+            "materials": [
+              {
+                "id": "mat-7-1",
+                "name": "Lesson_7_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_7_Slides.pdf"
+              },
+              {
+                "id": "mat-7-2",
+                "name": "Source_Code_7.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_7.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-8",
+            "title": "Distributed Tracing",
+            "duration": "12:24",
+            "description": "Tracing requests with OpenTelemetry and Jaeger.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 8,
+            "materials": [
+              {
+                "id": "mat-8-1",
+                "name": "Lesson_8_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_8_Slides.pdf"
+              },
+              {
+                "id": "mat-8-2",
+                "name": "Source_Code_8.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_8.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-9",
+            "title": "Logging Aggregation",
+            "duration": "13:26",
+            "description": "Centralizing logs from dozens of services.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 9,
+            "materials": [
+              {
+                "id": "mat-9-1",
+                "name": "Lesson_9_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_9_Slides.pdf"
+              },
+              {
+                "id": "mat-9-2",
+                "name": "Source_Code_9.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_9.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-10",
+            "title": "Circuit Breaker Pattern",
+            "duration": "14:28",
+            "description": "Building fault-tolerant systems with Hystrix/Benthos.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 10,
+            "materials": [
+              {
+                "id": "mat-10-1",
+                "name": "Lesson_10_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_10_Slides.pdf"
+              },
+              {
+                "id": "mat-10-2",
+                "name": "Source_Code_10.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_10.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-11",
+            "title": "Handling Retries & Timeouts",
+            "duration": "15:30",
+            "description": "Strategies for unreliable network communication.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 11,
+            "materials": [
+              {
+                "id": "mat-11-1",
+                "name": "Lesson_11_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_11_Slides.pdf"
+              },
+              {
+                "id": "mat-11-2",
+                "name": "Source_Code_11.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_11.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-12",
+            "title": "Scaling Strategy",
+            "duration": "16:32",
+            "description": "Horizontal vs Vertical scaling in cloud environments.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 12,
+            "materials": [
+              {
+                "id": "mat-12-1",
+                "name": "Lesson_12_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_12_Slides.pdf"
+              },
+              {
+                "id": "mat-12-2",
+                "name": "Source_Code_12.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_12.zip"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "m2",
+        "title": "Module 2: Event-Driven Systems & Scaling",
+        "lessons": [
+          {
+            "id": "l-13",
+            "title": "Async Messaging with RabbitMQ",
+            "duration": "10:00",
+            "description": "Decoupling services with queues and exchanges.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 13,
+            "materials": [
+              {
+                "id": "mat-13-1",
+                "name": "Lesson_13_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_13_Slides.pdf"
+              },
+              {
+                "id": "mat-13-2",
+                "name": "Source_Code_13.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_13.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-14",
+            "title": "Kafka for High Throughput",
+            "duration": "11:03",
+            "description": "Building a real-time event streaming pipeline.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 14,
+            "materials": [
+              {
+                "id": "mat-14-1",
+                "name": "Lesson_14_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_14_Slides.pdf"
+              },
+              {
+                "id": "mat-14-2",
+                "name": "Source_Code_14.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_14.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-15",
+            "title": "Event Sourcing & CQRS",
+            "duration": "12:06",
+            "description": "Separating read and write models for performance.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 15,
+            "materials": [
+              {
+                "id": "mat-15-1",
+                "name": "Lesson_15_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_15_Slides.pdf"
+              },
+              {
+                "id": "mat-15-2",
+                "name": "Source_Code_15.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_15.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-16",
+            "title": "The Inbox/Outbox Pattern",
+            "duration": "13:09",
+            "description": "Ensuring message delivery reliability in databases.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 16,
+            "materials": [
+              {
+                "id": "mat-16-1",
+                "name": "Lesson_16_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_16_Slides.pdf"
+              },
+              {
+                "id": "mat-16-2",
+                "name": "Source_Code_16.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_16.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-17",
+            "title": "Scaling with Kubernetes (K8s)",
+            "duration": "14:12",
+            "description": "Orchestrating hundreds of pods in production.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 17,
+            "materials": [
+              {
+                "id": "mat-17-1",
+                "name": "Lesson_17_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_17_Slides.pdf"
+              },
+              {
+                "id": "mat-17-2",
+                "name": "Source_Code_17.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_17.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-18",
+            "title": "CI/CD for Distributed Apps",
+            "duration": "15:15",
+            "description": "Automating deployments across multiple cloud regions.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 18,
+            "materials": [
+              {
+                "id": "mat-18-1",
+                "name": "Lesson_18_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_18_Slides.pdf"
+              },
+              {
+                "id": "mat-18-2",
+                "name": "Source_Code_18.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_18.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-19",
+            "title": "Zero-Downtime Deployments",
+            "duration": "16:18",
+            "description": "Using Blue-Green and Canary strategies.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 19,
+            "materials": [
+              {
+                "id": "mat-19-1",
+                "name": "Lesson_19_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_19_Slides.pdf"
+              },
+              {
+                "id": "mat-19-2",
+                "name": "Source_Code_19.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_19.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-20",
+            "title": "Securing Microservices",
+            "duration": "17:21",
+            "description": "OAuth2, JWT, and mTLS between backend nodes.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 20,
+            "materials": [
+              {
+                "id": "mat-20-1",
+                "name": "Lesson_20_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_20_Slides.pdf"
+              },
+              {
+                "id": "mat-20-2",
+                "name": "Source_Code_20.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_20.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-21",
+            "title": "Database Sharding Patterns",
+            "duration": "18:24",
+            "description": "Splitting data across multiple storage nodes.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 21,
+            "materials": [
+              {
+                "id": "mat-21-1",
+                "name": "Lesson_21_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_21_Slides.pdf"
+              },
+              {
+                "id": "mat-21-2",
+                "name": "Source_Code_21.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_21.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-22",
+            "title": "Serverless Functions Integration",
+            "duration": "19:27",
+            "description": "Mixing long-running services with AWS Lambda.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 22,
+            "materials": [
+              {
+                "id": "mat-22-1",
+                "name": "Lesson_22_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_22_Slides.pdf"
+              },
+              {
+                "id": "mat-22-2",
+                "name": "Source_Code_22.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_22.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-23",
+            "title": "Cost Management in Cloud",
+            "duration": "20:30",
+            "description": "Optimizing resource spending in AWS/GCP.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 23,
+            "materials": [
+              {
+                "id": "mat-23-1",
+                "name": "Lesson_23_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_23_Slides.pdf"
+              },
+              {
+                "id": "mat-23-2",
+                "name": "Source_Code_23.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_23.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-24",
+            "title": "Final Project: Enterprise Ecosystem",
+            "duration": "21:33",
+            "description": "Connecting all services into a unified platform.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 24,
+            "materials": [
+              {
+                "id": "mat-24-1",
+                "name": "Lesson_24_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_24_Slides.pdf"
+              },
+              {
+                "id": "mat-24-2",
+                "name": "Source_Code_24.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_24.zip"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course": {
+      "id": "4",
+      "title": "Digital Marketing 2024",
+      "shortDescription": "Strategies for SEO, social media, and content marketing in the current landscape.",
+      "coverImage": "https://placehold.co/400x200/141414/ec4899?text=Marketing",
+      "category": {
+        "name": "MARKETING",
+        "icon": "heroicons:rocket-launch"
+      },
+      "lessonsCount": 15,
+      "duration": "5h 00m",
+      "progress": 0
+    },
+    "modules": [
+      {
+        "id": "m1",
+        "title": "Module 1: SEO & Content Strategy",
+        "lessons": [
+          {
+            "id": "l-1",
+            "title": "SEO in the Age of Generative AI",
+            "duration": "5:10",
+            "description": "Adapting keywords for SGE and conversational search.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": false,
+            "order": 1,
+            "materials": [
+              {
+                "id": "mat-1-1",
+                "name": "Lesson_1_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_1_Slides.pdf"
+              },
+              {
+                "id": "mat-1-2",
+                "name": "Source_Code_1.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_1.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-2",
+            "title": "Advanced Keyword Intent Mapping",
+            "duration": "6:12",
+            "description": "Going beyond volume: understanding user pain points.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 2,
+            "materials": [
+              {
+                "id": "mat-2-1",
+                "name": "Lesson_2_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_2_Slides.pdf"
+              },
+              {
+                "id": "mat-2-2",
+                "name": "Source_Code_2.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_2.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-3",
+            "title": "On-Page Technical SEO Audit",
+            "duration": "7:14",
+            "description": "Optimizing metadata, schema markup, and speed.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 3,
+            "materials": [
+              {
+                "id": "mat-3-1",
+                "name": "Lesson_3_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_3_Slides.pdf"
+              },
+              {
+                "id": "mat-3-2",
+                "name": "Source_Code_3.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_3.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-4",
+            "title": "High-Authority Link Building",
+            "duration": "8:16",
+            "description": "Building backlinks through digital PR and outreach.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 4,
+            "materials": [
+              {
+                "id": "mat-4-1",
+                "name": "Lesson_4_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_4_Slides.pdf"
+              },
+              {
+                "id": "mat-4-2",
+                "name": "Source_Code_4.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_4.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-5",
+            "title": "Content Pillars & Topic Clusters",
+            "duration": "9:18",
+            "description": "Structuring your blog to dominate niche topics.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 5,
+            "materials": [
+              {
+                "id": "mat-5-1",
+                "name": "Lesson_5_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_5_Slides.pdf"
+              },
+              {
+                "id": "mat-5-2",
+                "name": "Source_Code_5.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_5.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-6",
+            "title": "Data-Driven Content Marketing",
+            "duration": "10:20",
+            "description": "Using Google Analytics 4 to track content ROI.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 6,
+            "materials": [
+              {
+                "id": "mat-6-1",
+                "name": "Lesson_6_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_6_Slides.pdf"
+              },
+              {
+                "id": "mat-6-2",
+                "name": "Source_Code_6.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_6.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-7",
+            "title": "UX & Conversational Marketing",
+            "duration": "11:22",
+            "description": "Improving bounce rates with better site experience.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 7,
+            "materials": [
+              {
+                "id": "mat-7-1",
+                "name": "Lesson_7_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_7_Slides.pdf"
+              },
+              {
+                "id": "mat-7-2",
+                "name": "Source_Code_7.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_7.zip"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "m2",
+        "title": "Module 2: Paid Media & Performance",
+        "lessons": [
+          {
+            "id": "l-8",
+            "title": "Meta Ads: Scaling Framework",
+            "duration": "10:00",
+            "description": "How to scale winning creatives without breaking the CPA.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 8,
+            "materials": [
+              {
+                "id": "mat-8-1",
+                "name": "Lesson_8_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_8_Slides.pdf"
+              },
+              {
+                "id": "mat-8-2",
+                "name": "Source_Code_8.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_8.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-9",
+            "title": "Google Ads Performance Max",
+            "duration": "11:03",
+            "description": "Leveraging machine learning for cross-channel sales.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 9,
+            "materials": [
+              {
+                "id": "mat-9-1",
+                "name": "Lesson_9_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_9_Slides.pdf"
+              },
+              {
+                "id": "mat-9-2",
+                "name": "Source_Code_9.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_9.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-10",
+            "title": "Marketing Automation Flows",
+            "duration": "12:06",
+            "description": "Building lead scoring and automated sales funnels.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 10,
+            "materials": [
+              {
+                "id": "mat-10-1",
+                "name": "Lesson_10_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_10_Slides.pdf"
+              },
+              {
+                "id": "mat-10-2",
+                "name": "Source_Code_10.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_10.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-11",
+            "title": "TikTok Ads & UGC Strategy",
+            "duration": "13:09",
+            "description": "Creating viral-ready advertisements that don't look like ads.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 11,
+            "materials": [
+              {
+                "id": "mat-11-1",
+                "name": "Lesson_11_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_11_Slides.pdf"
+              },
+              {
+                "id": "mat-11-2",
+                "name": "Source_Code_11.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_11.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-12",
+            "title": "Copywriting for Conversions",
+            "duration": "14:12",
+            "description": "Persuasion techniques for landing pages and emails.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 12,
+            "materials": [
+              {
+                "id": "mat-12-1",
+                "name": "Lesson_12_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_12_Slides.pdf"
+              },
+              {
+                "id": "mat-12-2",
+                "name": "Source_Code_12.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_12.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-13",
+            "title": "CRM & LTV Optimization",
+            "duration": "15:15",
+            "description": "Retaining customers through personalized communication.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 13,
+            "materials": [
+              {
+                "id": "mat-13-1",
+                "name": "Lesson_13_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_13_Slides.pdf"
+              },
+              {
+                "id": "mat-13-2",
+                "name": "Source_Code_13.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_13.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-14",
+            "title": "Budget Attribution Models",
+            "duration": "16:18",
+            "description": "Solving the tracking crisis: First-click vs Last-click.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 14,
+            "materials": [
+              {
+                "id": "mat-14-1",
+                "name": "Lesson_14_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_14_Slides.pdf"
+              },
+              {
+                "id": "mat-14-2",
+                "name": "Source_Code_14.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_14.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-15",
+            "title": "AI in Ads Creatives",
+            "duration": "17:21",
+            "description": "Using Midjourney and DALL-E for ad banners.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 15,
+            "materials": [
+              {
+                "id": "mat-15-1",
+                "name": "Lesson_15_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_15_Slides.pdf"
+              },
+              {
+                "id": "mat-15-2",
+                "name": "Source_Code_15.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_15.zip"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course": {
+      "id": "5",
+      "title": "Python for Data Analysis",
+      "shortDescription": "Data manipulation, visualization, and statistical analysis with Python.",
+      "coverImage": "https://placehold.co/400x200/141414/1A9E6B?text=Data",
+      "category": {
+        "name": "DATA SCIENCE",
+        "icon": "heroicons:chart-bar"
+      },
+      "lessonsCount": 18,
+      "duration": "6h 30m",
+      "progress": 75
+    },
+    "modules": [
+      {
+        "id": "m1",
+        "title": "Module 1: Pandas & NumPy Essentials",
+        "lessons": [
+          {
+            "id": "l-1",
+            "title": "Array Computing with NumPy",
+            "duration": "5:10",
+            "description": "Understanding vectorized operations and broadcasting.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 1,
+            "materials": [
+              {
+                "id": "mat-1-1",
+                "name": "Lesson_1_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_1_Slides.pdf"
+              },
+              {
+                "id": "mat-1-2",
+                "name": "Source_Code_1.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_1.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-2",
+            "title": "Mastering Pandas DataFrames",
+            "duration": "6:12",
+            "description": "Filtering, indexing, and selecting tabular data.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 2,
+            "materials": [
+              {
+                "id": "mat-2-1",
+                "name": "Lesson_2_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_2_Slides.pdf"
+              },
+              {
+                "id": "mat-2-2",
+                "name": "Source_Code_2.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_2.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-3",
+            "title": "Data Cleaning & Preprocessing",
+            "duration": "7:14",
+            "description": "Handling missing values and data inconsistencies.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 3,
+            "materials": [
+              {
+                "id": "mat-3-1",
+                "name": "Lesson_3_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_3_Slides.pdf"
+              },
+              {
+                "id": "mat-3-2",
+                "name": "Source_Code_3.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_3.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-4",
+            "title": "Groupby & Aggregation Patterns",
+            "duration": "8:16",
+            "description": "Applying split-apply-combine logic to datasets.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 4,
+            "materials": [
+              {
+                "id": "mat-4-1",
+                "name": "Lesson_4_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_4_Slides.pdf"
+              },
+              {
+                "id": "mat-4-2",
+                "name": "Source_Code_4.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_4.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-5",
+            "title": "Merging & Joining Data",
+            "duration": "9:18",
+            "description": "Combining multiple data sources efficiently.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 5,
+            "materials": [
+              {
+                "id": "mat-5-1",
+                "name": "Lesson_5_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_5_Slides.pdf"
+              },
+              {
+                "id": "mat-5-2",
+                "name": "Source_Code_5.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_5.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-6",
+            "title": "Handling Time Series Data",
+            "duration": "10:20",
+            "description": "Resampling, window functions, and date offsets.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 6,
+            "materials": [
+              {
+                "id": "mat-6-1",
+                "name": "Lesson_6_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_6_Slides.pdf"
+              },
+              {
+                "id": "mat-6-2",
+                "name": "Source_Code_6.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_6.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-7",
+            "title": "Reshaping & Pivot Tables",
+            "duration": "11:22",
+            "description": "Transforming data structures for business analysis.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 7,
+            "materials": [
+              {
+                "id": "mat-7-1",
+                "name": "Lesson_7_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_7_Slides.pdf"
+              },
+              {
+                "id": "mat-7-2",
+                "name": "Source_Code_7.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_7.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-8",
+            "title": "Exporting to SQL & Excel",
+            "duration": "12:24",
+            "description": "Automating reports from Python to other platforms.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 8,
+            "materials": [
+              {
+                "id": "mat-8-1",
+                "name": "Lesson_8_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_8_Slides.pdf"
+              },
+              {
+                "id": "mat-8-2",
+                "name": "Source_Code_8.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_8.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-9",
+            "title": "Optimizing Large Datasets",
+            "duration": "13:26",
+            "description": "Techniques for memory-efficient data loading.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 9,
+            "materials": [
+              {
+                "id": "mat-9-1",
+                "name": "Lesson_9_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_9_Slides.pdf"
+              },
+              {
+                "id": "mat-9-2",
+                "name": "Source_Code_9.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_9.zip"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "m2",
+        "title": "Module 2: Visual Analytics & Statistics",
+        "lessons": [
+          {
+            "id": "l-10",
+            "title": "Advanced Charting with Seaborn",
+            "duration": "10:00",
+            "description": "Building heatmaps, boxplots, and regression lines.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": true,
+            "locked": false,
+            "order": 10,
+            "materials": [
+              {
+                "id": "mat-10-1",
+                "name": "Lesson_10_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_10_Slides.pdf"
+              },
+              {
+                "id": "mat-10-2",
+                "name": "Source_Code_10.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_10.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-11",
+            "title": "Interactive Plots with Plotly",
+            "duration": "11:03",
+            "description": "Creating dashboards that users can explore.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": true,
+            "locked": false,
+            "order": 11,
+            "materials": [
+              {
+                "id": "mat-11-1",
+                "name": "Lesson_11_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_11_Slides.pdf"
+              },
+              {
+                "id": "mat-11-2",
+                "name": "Source_Code_11.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_11.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-12",
+            "title": "Exploratory Data Analysis (EDA)",
+            "duration": "12:06",
+            "description": "Extracting patterns and insights from raw data.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": true,
+            "locked": false,
+            "order": 12,
+            "materials": [
+              {
+                "id": "mat-12-1",
+                "name": "Lesson_12_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_12_Slides.pdf"
+              },
+              {
+                "id": "mat-12-2",
+                "name": "Source_Code_12.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_12.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-13",
+            "title": "Linear Regression with Scikit-Learn",
+            "duration": "13:09",
+            "description": "Predicting numerical outcomes using data.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": true,
+            "locked": false,
+            "order": 13,
+            "materials": [
+              {
+                "id": "mat-13-1",
+                "name": "Lesson_13_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_13_Slides.pdf"
+              },
+              {
+                "id": "mat-13-2",
+                "name": "Source_Code_13.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_13.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-14",
+            "title": "Classification Algorithms",
+            "duration": "14:12",
+            "description": "Building models to categorize data points.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": false,
+            "order": 14,
+            "materials": [
+              {
+                "id": "mat-14-1",
+                "name": "Lesson_14_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_14_Slides.pdf"
+              },
+              {
+                "id": "mat-14-2",
+                "name": "Source_Code_14.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_14.zip"
+              }
+            ],
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+          },
+          {
+            "id": "l-15",
+            "title": "Feature Engineering & Scaling",
+            "duration": "15:15",
+            "description": "Preparing inputs for better ML model performance.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 15,
+            "materials": [
+              {
+                "id": "mat-15-1",
+                "name": "Lesson_15_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_15_Slides.pdf"
+              },
+              {
+                "id": "mat-15-2",
+                "name": "Source_Code_15.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_15.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-16",
+            "title": "Model Evaluation & Metrics",
+            "duration": "16:18",
+            "description": "Calculating accuracy, precision, and recall.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 16,
+            "materials": [
+              {
+                "id": "mat-16-1",
+                "name": "Lesson_16_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_16_Slides.pdf"
+              },
+              {
+                "id": "mat-16-2",
+                "name": "Source_Code_16.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_16.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-17",
+            "title": "K-Means Clustering Analysis",
+            "duration": "17:21",
+            "description": "Discovering hidden groups within unlabelled data.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 17,
+            "materials": [
+              {
+                "id": "mat-17-1",
+                "name": "Lesson_17_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_17_Slides.pdf"
+              },
+              {
+                "id": "mat-17-2",
+                "name": "Source_Code_17.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_17.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-18",
+            "title": "Final Project: Housing Market Insights",
+            "duration": "18:24",
+            "description": "Full end-to-end data analysis workflow.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 18,
+            "materials": [
+              {
+                "id": "mat-18-1",
+                "name": "Lesson_18_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_18_Slides.pdf"
+              },
+              {
+                "id": "mat-18-2",
+                "name": "Source_Code_18.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_18.zip"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course": {
+      "id": "6",
+      "title": "Intro to Cybersecurity",
+      "shortDescription": "Fundamentals of security, threat modeling, and secure coding practices.",
+      "coverImage": "https://placehold.co/400x200/141414/ef4444?text=Security",
+      "category": {
+        "name": "SECURITY",
+        "icon": "heroicons:lock-closed"
+      },
+      "lessonsCount": 10,
+      "duration": "3h 45m",
+      "progress": 10
+    },
+    "modules": [
+      {
+        "id": "m1",
+        "title": "Module 1: Threat Landscape & Fundamentals",
+        "lessons": [
+          {
+            "id": "l-1",
+            "title": "The CIA Triad Concept",
+            "duration": "5:10",
+            "description": "Confidentiality, Integrity, and Availability foundations.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 1,
+            "materials": [
+              {
+                "id": "mat-1-1",
+                "name": "Lesson_1_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_1_Slides.pdf"
+              },
+              {
+                "id": "mat-1-2",
+                "name": "Source_Code_1.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_1.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-2",
+            "title": "Social Engineering & Phishing",
+            "duration": "6:12",
+            "description": "Understanding psychological manipulation in cyberattacks.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": false,
+            "order": 2,
+            "materials": [
+              {
+                "id": "mat-2-1",
+                "name": "Lesson_2_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_2_Slides.pdf"
+              },
+              {
+                "id": "mat-2-2",
+                "name": "Source_Code_2.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_2.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-3",
+            "title": "Modern Malware Analysis",
+            "duration": "7:14",
+            "description": "Differentiating Ransomware, Trojans, and Rootkits.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 3,
+            "materials": [
+              {
+                "id": "mat-3-1",
+                "name": "Lesson_3_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_3_Slides.pdf"
+              },
+              {
+                "id": "mat-3-2",
+                "name": "Source_Code_3.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_3.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-4",
+            "title": "Encryption & Hashing 101",
+            "duration": "8:16",
+            "description": "Symmetric vs Asymmetric keys and Salted hashing.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 4,
+            "materials": [
+              {
+                "id": "mat-4-1",
+                "name": "Lesson_4_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_4_Slides.pdf"
+              },
+              {
+                "id": "mat-4-2",
+                "name": "Source_Code_4.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_4.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-5",
+            "title": "Network Defense & Firewalls",
+            "duration": "9:18",
+            "description": "Configuring subnets and intrusion detection systems.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 5,
+            "materials": [
+              {
+                "id": "mat-5-1",
+                "name": "Lesson_5_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_5_Slides.pdf"
+              },
+              {
+                "id": "mat-5-2",
+                "name": "Source_Code_5.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_5.zip"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "m2",
+        "title": "Module 2: Secure Development Practices",
+        "lessons": [
+          {
+            "id": "l-6",
+            "title": "OWASP Top 10 Deep Dive",
+            "duration": "10:00",
+            "description": "Breaking down the most critical web vulnerabilities.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 6,
+            "materials": [
+              {
+                "id": "mat-6-1",
+                "name": "Lesson_6_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_6_Slides.pdf"
+              },
+              {
+                "id": "mat-6-2",
+                "name": "Source_Code_6.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_6.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-7",
+            "title": "Injection Prevention: SQL & NoSQL",
+            "duration": "11:03",
+            "description": "Using parameterized queries to block database attacks.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 7,
+            "materials": [
+              {
+                "id": "mat-7-1",
+                "name": "Lesson_7_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_7_Slides.pdf"
+              },
+              {
+                "id": "mat-7-2",
+                "name": "Source_Code_7.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_7.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-8",
+            "title": "Cross-Site Scripting (XSS) Mitigation",
+            "duration": "12:06",
+            "description": "Escaping output and Content Security Policy (CSP).",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 8,
+            "materials": [
+              {
+                "id": "mat-8-1",
+                "name": "Lesson_8_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_8_Slides.pdf"
+              },
+              {
+                "id": "mat-8-2",
+                "name": "Source_Code_8.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_8.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-9",
+            "title": "Identity & Access Management (IAM)",
+            "duration": "13:09",
+            "description": "Implementing Multi-Factor Authentication (MFA).",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 9,
+            "materials": [
+              {
+                "id": "mat-9-1",
+                "name": "Lesson_9_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_9_Slides.pdf"
+              },
+              {
+                "id": "mat-9-2",
+                "name": "Source_Code_9.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_9.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-10",
+            "title": "Incident Response & Auditing",
+            "duration": "14:12",
+            "description": "What to do when a breach occurs.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 10,
+            "materials": [
+              {
+                "id": "mat-10-1",
+                "name": "Lesson_10_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_10_Slides.pdf"
+              },
+              {
+                "id": "mat-10-2",
+                "name": "Source_Code_10.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_10.zip"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course": {
+      "id": "7",
+      "title": "React & TypeScript Mastery",
+      "shortDescription": "Build type-safe React applications with TypeScript, hooks, and modern patterns.",
+      "coverImage": "https://placehold.co/400x200/141414/61dafb?text=React+TS",
+      "category": {
+        "name": "DEVELOPMENT",
+        "icon": "heroicons:code-bracket"
+      },
+      "lessonsCount": 14,
+      "duration": "5h 20m",
+      "progress": 30,
+      "statusBadge": "New"
+    },
+    "modules": [
+      {
+        "id": "m1",
+        "title": "Module 1: TypeScript & Hooks Integration",
+        "lessons": [
+          {
+            "id": "l-1",
+            "title": "Setup: Vite with TS Configuration",
+            "duration": "5:10",
+            "description": "Understanding strict mode and tsconfig for React.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 1,
+            "materials": [
+              {
+                "id": "mat-1-1",
+                "name": "Lesson_1_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_1_Slides.pdf"
+              },
+              {
+                "id": "mat-1-2",
+                "name": "Source_Code_1.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_1.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-2",
+            "title": "Typing Functional Components",
+            "duration": "6:12",
+            "description": "Handling props, interfaces, and children types.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 2,
+            "materials": [
+              {
+                "id": "mat-2-1",
+                "name": "Lesson_2_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_2_Slides.pdf"
+              },
+              {
+                "id": "mat-2-2",
+                "name": "Source_Code_2.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_2.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-3",
+            "title": "Stateful Logic with useState<T>",
+            "duration": "7:14",
+            "description": "Garanting type safety in complex state objects.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 3,
+            "materials": [
+              {
+                "id": "mat-3-1",
+                "name": "Lesson_3_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_3_Slides.pdf"
+              },
+              {
+                "id": "mat-3-2",
+                "name": "Source_Code_3.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_3.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-4",
+            "title": "Event Handling & Refs in TS",
+            "duration": "8:16",
+            "description": "Typing HTML input events and useRef hooks.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 4,
+            "materials": [
+              {
+                "id": "mat-4-1",
+                "name": "Lesson_4_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_4_Slides.pdf"
+              },
+              {
+                "id": "mat-4-2",
+                "name": "Source_Code_4.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_4.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-5",
+            "title": "Type-Safe Context API",
+            "duration": "9:18",
+            "description": "Managing global state without losing intellisense.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": false,
+            "order": 5,
+            "materials": [
+              {
+                "id": "mat-5-1",
+                "name": "Lesson_5_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_5_Slides.pdf"
+              },
+              {
+                "id": "mat-5-2",
+                "name": "Source_Code_5.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_5.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-6",
+            "title": "Building Custom Generic Hooks",
+            "duration": "10:20",
+            "description": "Creating reusable hooks that accept dynamic types.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 6,
+            "materials": [
+              {
+                "id": "mat-6-1",
+                "name": "Lesson_6_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_6_Slides.pdf"
+              },
+              {
+                "id": "mat-6-2",
+                "name": "Source_Code_6.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_6.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-7",
+            "title": "Handling API Responses with Axios",
+            "duration": "11:22",
+            "description": "Mapping JSON payloads to TypeScript interfaces.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 7,
+            "materials": [
+              {
+                "id": "mat-7-1",
+                "name": "Lesson_7_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_7_Slides.pdf"
+              },
+              {
+                "id": "mat-7-2",
+                "name": "Source_Code_7.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_7.zip"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "m2",
+        "title": "Module 2: Advanced Patterns & Scaling",
+        "lessons": [
+          {
+            "id": "l-8",
+            "title": "Polymorphic Components Pattern",
+            "duration": "10:00",
+            "description": "Creating the 'as' prop for dynamic HTML elements.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 8,
+            "materials": [
+              {
+                "id": "mat-8-1",
+                "name": "Lesson_8_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_8_Slides.pdf"
+              },
+              {
+                "id": "mat-8-2",
+                "name": "Source_Code_8.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_8.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-9",
+            "title": "Discriminated Unions in React",
+            "duration": "11:03",
+            "description": "Garanting exclusive props for complex components.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 9,
+            "materials": [
+              {
+                "id": "mat-9-1",
+                "name": "Lesson_9_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_9_Slides.pdf"
+              },
+              {
+                "id": "mat-9-2",
+                "name": "Source_Code_9.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_9.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-10",
+            "title": "Render Props vs HOCs in TS",
+            "duration": "12:06",
+            "description": "Comparing old and modern patterns for code reuse.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 10,
+            "materials": [
+              {
+                "id": "mat-10-1",
+                "name": "Lesson_10_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_10_Slides.pdf"
+              },
+              {
+                "id": "mat-10-2",
+                "name": "Source_Code_10.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_10.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-11",
+            "title": "Performance: useMemo & Profiler",
+            "duration": "13:09",
+            "description": "Detecting re-renders and optimizing expensive calls.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 11,
+            "materials": [
+              {
+                "id": "mat-11-1",
+                "name": "Lesson_11_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_11_Slides.pdf"
+              },
+              {
+                "id": "mat-11-2",
+                "name": "Source_Code_11.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_11.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-12",
+            "title": "Testing with Vitest & RTL",
+            "duration": "14:12",
+            "description": "Writing tests for type-safe components.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 12,
+            "materials": [
+              {
+                "id": "mat-12-1",
+                "name": "Lesson_12_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_12_Slides.pdf"
+              },
+              {
+                "id": "mat-12-2",
+                "name": "Source_Code_12.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_12.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-13",
+            "title": "State Management with Zustand",
+            "duration": "15:15",
+            "description": "The minimalist and type-safe alternative to Redux.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 13,
+            "materials": [
+              {
+                "id": "mat-13-1",
+                "name": "Lesson_13_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_13_Slides.pdf"
+              },
+              {
+                "id": "mat-13-2",
+                "name": "Source_Code_13.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_13.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-14",
+            "title": "Final Project: SaaS Dashboard",
+            "duration": "16:18",
+            "description": "Building a full application with modern architecture.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 14,
+            "materials": [
+              {
+                "id": "mat-14-1",
+                "name": "Lesson_14_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_14_Slides.pdf"
+              },
+              {
+                "id": "mat-14-2",
+                "name": "Source_Code_14.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_14.zip"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course": {
+      "id": "8",
+      "title": "Mobile Development with Flutter",
+      "shortDescription": "Create cross-platform mobile apps with Flutter and Dart.",
+      "coverImage": "https://placehold.co/400x200/141414/02569B?text=Flutter",
+      "category": {
+        "name": "MOBILE",
+        "icon": "heroicons:device-phone-mobile"
+      },
+      "lessonsCount": 20,
+      "duration": "7h 15m",
+      "progress": 50
+    },
+    "modules": [
+      {
+        "id": "m1",
+        "title": "Module 1: Flutter Basics & Layouts",
+        "lessons": [
+          {
+            "id": "l-1",
+            "title": "Dart Fundamentals & Null Safety",
+            "duration": "5:10",
+            "description": "Learning the language core for Flutter development.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 1,
+            "materials": [
+              {
+                "id": "mat-1-1",
+                "name": "Lesson_1_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_1_Slides.pdf"
+              },
+              {
+                "id": "mat-1-2",
+                "name": "Source_Code_1.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_1.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-2",
+            "title": "Stateless vs Stateful Widgets",
+            "duration": "6:12",
+            "description": "Understanding how Flutter manages UI updates.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 2,
+            "materials": [
+              {
+                "id": "mat-2-1",
+                "name": "Lesson_2_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_2_Slides.pdf"
+              },
+              {
+                "id": "mat-2-2",
+                "name": "Source_Code_2.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_2.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-3",
+            "title": "Mastering Row, Column & Stack",
+            "duration": "7:14",
+            "description": "Designing complex and nested layouts.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 3,
+            "materials": [
+              {
+                "id": "mat-3-1",
+                "name": "Lesson_3_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_3_Slides.pdf"
+              },
+              {
+                "id": "mat-3-2",
+                "name": "Source_Code_3.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_3.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-4",
+            "title": "Lists & Grids Performance",
+            "duration": "8:16",
+            "description": "Efficient rendering for long scrollable content.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 4,
+            "materials": [
+              {
+                "id": "mat-4-1",
+                "name": "Lesson_4_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_4_Slides.pdf"
+              },
+              {
+                "id": "mat-4-2",
+                "name": "Source_Code_4.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_4.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-5",
+            "title": "Navigator 2.0 & Routing",
+            "duration": "9:18",
+            "description": "Managing screen transitions and deep linking.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 5,
+            "materials": [
+              {
+                "id": "mat-5-1",
+                "name": "Lesson_5_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_5_Slides.pdf"
+              },
+              {
+                "id": "mat-5-2",
+                "name": "Source_Code_5.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_5.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-6",
+            "title": "Handling User Inputs & Forms",
+            "duration": "10:20",
+            "description": "Text editing controllers and field validation.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 6,
+            "materials": [
+              {
+                "id": "mat-6-1",
+                "name": "Lesson_6_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_6_Slides.pdf"
+              },
+              {
+                "id": "mat-6-2",
+                "name": "Source_Code_6.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_6.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-7",
+            "title": "Themes & Custom Styling",
+            "duration": "11:22",
+            "description": "Defining Dark Mode and global app aesthetics.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 7,
+            "materials": [
+              {
+                "id": "mat-7-1",
+                "name": "Lesson_7_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_7_Slides.pdf"
+              },
+              {
+                "id": "mat-7-2",
+                "name": "Source_Code_7.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_7.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-8",
+            "title": "Consuming APIs with Dio",
+            "duration": "12:24",
+            "description": "Network calls, interceptors, and error handling.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 8,
+            "materials": [
+              {
+                "id": "mat-8-1",
+                "name": "Lesson_8_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_8_Slides.pdf"
+              },
+              {
+                "id": "mat-8-2",
+                "name": "Source_Code_8.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_8.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-9",
+            "title": "FutureBuilder & StreamBuilder",
+            "duration": "13:26",
+            "description": "Reactive UI patterns for async data flow.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 9,
+            "materials": [
+              {
+                "id": "mat-9-1",
+                "name": "Lesson_9_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_9_Slides.pdf"
+              },
+              {
+                "id": "mat-9-2",
+                "name": "Source_Code_9.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_9.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-10",
+            "title": "Storing Data Offline",
+            "duration": "14:28",
+            "description": "Using SQLite and SharedPreferences for local cache.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 10,
+            "materials": [
+              {
+                "id": "mat-10-1",
+                "name": "Lesson_10_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_10_Slides.pdf"
+              },
+              {
+                "id": "mat-10-2",
+                "name": "Source_Code_10.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_10.zip"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "m2",
+        "title": "Module 2: Advanced State & Deployment",
+        "lessons": [
+          {
+            "id": "l-11",
+            "title": "State Management with BLoC",
+            "duration": "10:00",
+            "description": "Building clean architecture with streams and events.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": false,
+            "order": 11,
+            "materials": [
+              {
+                "id": "mat-11-1",
+                "name": "Lesson_11_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_11_Slides.pdf"
+              },
+              {
+                "id": "mat-11-2",
+                "name": "Source_Code_11.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_11.zip"
+              }
+            ],
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+          },
+          {
+            "id": "l-12",
+            "title": "Riverpod: Modern Dependency Injection",
+            "duration": "11:03",
+            "description": "Handling state and logic without context limitations.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 12,
+            "materials": [
+              {
+                "id": "mat-12-1",
+                "name": "Lesson_12_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_12_Slides.pdf"
+              },
+              {
+                "id": "mat-12-2",
+                "name": "Source_Code_12.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_12.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-13",
+            "title": "Custom Animations & Transitions",
+            "duration": "12:06",
+            "description": "Creating high-end feel with implicit and explicit animations.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 13,
+            "materials": [
+              {
+                "id": "mat-13-1",
+                "name": "Lesson_13_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_13_Slides.pdf"
+              },
+              {
+                "id": "mat-13-2",
+                "name": "Source_Code_13.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_13.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-14",
+            "title": "Working with Firebase Auth",
+            "duration": "13:09",
+            "description": "Implementing login, signup, and social providers.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 14,
+            "materials": [
+              {
+                "id": "mat-14-1",
+                "name": "Lesson_14_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_14_Slides.pdf"
+              },
+              {
+                "id": "mat-14-2",
+                "name": "Source_Code_14.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_14.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-15",
+            "title": "Real-time Database: Firestore",
+            "duration": "14:12",
+            "description": "Handling live data syncing and security rules.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 15,
+            "materials": [
+              {
+                "id": "mat-15-1",
+                "name": "Lesson_15_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_15_Slides.pdf"
+              },
+              {
+                "id": "mat-15-2",
+                "name": "Source_Code_15.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_15.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-16",
+            "title": "Push Notifications Strategy",
+            "duration": "15:15",
+            "description": "Engaging users through cloud messaging service.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 16,
+            "materials": [
+              {
+                "id": "mat-16-1",
+                "name": "Lesson_16_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_16_Slides.pdf"
+              },
+              {
+                "id": "mat-16-2",
+                "name": "Source_Code_16.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_16.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-17",
+            "title": "Platform Channels: Native Code",
+            "duration": "16:18",
+            "description": "Connecting Flutter with Kotlin and Swift.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 17,
+            "materials": [
+              {
+                "id": "mat-17-1",
+                "name": "Lesson_17_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_17_Slides.pdf"
+              },
+              {
+                "id": "mat-17-2",
+                "name": "Source_Code_17.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_17.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-18",
+            "title": "Performance Profiling & Debugging",
+            "duration": "17:21",
+            "description": "Finding memory leaks and jank in UI rendering.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 18,
+            "materials": [
+              {
+                "id": "mat-18-1",
+                "name": "Lesson_18_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_18_Slides.pdf"
+              },
+              {
+                "id": "mat-18-2",
+                "name": "Source_Code_18.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_18.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-19",
+            "title": "Continuous Integration (CI) for Mobile",
+            "duration": "18:24",
+            "description": "Automating builds with GitHub Actions and Fastlane.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 19,
+            "materials": [
+              {
+                "id": "mat-19-1",
+                "name": "Lesson_19_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_19_Slides.pdf"
+              },
+              {
+                "id": "mat-19-2",
+                "name": "Source_Code_19.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_19.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-20",
+            "title": "App Store & Google Play Release",
+            "duration": "19:27",
+            "description": "Step-by-step guide to publishing your first app.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 20,
+            "materials": [
+              {
+                "id": "mat-20-1",
+                "name": "Lesson_20_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_20_Slides.pdf"
+              },
+              {
+                "id": "mat-20-2",
+                "name": "Source_Code_20.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_20.zip"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course": {
+      "id": "9",
+      "title": "DevOps & CI/CD Pipelines",
+      "shortDescription": "Automate builds, tests, and deployments with modern DevOps tools.",
+      "coverImage": "https://placehold.co/400x200/141414/f05032?text=DevOps",
+      "category": {
+        "name": "DEVOPS",
+        "icon": "heroicons:cpu-chip"
+      },
+      "lessonsCount": 16,
+      "duration": "6h 00m",
+      "progress": 15,
+      "statusBadge": "Popular"
+    },
+    "modules": [
+      {
+        "id": "m1",
+        "title": "Module 1: Infrastructure & Automation Basics",
+        "lessons": [
+          {
+            "id": "l-1",
+            "title": "Defining the DevOps Lifecycle",
+            "duration": "5:10",
+            "description": "Understanding culture, process, and tools.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 1,
+            "materials": [
+              {
+                "id": "mat-1-1",
+                "name": "Lesson_1_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_1_Slides.pdf"
+              },
+              {
+                "id": "mat-1-2",
+                "name": "Source_Code_1.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_1.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-2",
+            "title": "Git Flow & Branching Strategies",
+            "duration": "6:12",
+            "description": "Organizing code for collaborative deployments.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": true,
+            "locked": false,
+            "order": 2,
+            "materials": [
+              {
+                "id": "mat-2-1",
+                "name": "Lesson_2_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_2_Slides.pdf"
+              },
+              {
+                "id": "mat-2-2",
+                "name": "Source_Code_2.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_2.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-3",
+            "title": "Introduction to GitHub Actions",
+            "duration": "7:14",
+            "description": "Building your first automated workflow.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": false,
+            "order": 3,
+            "materials": [
+              {
+                "id": "mat-3-1",
+                "name": "Lesson_3_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_3_Slides.pdf"
+              },
+              {
+                "id": "mat-3-2",
+                "name": "Source_Code_3.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_3.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-4",
+            "title": "Docker: Mastering Containers",
+            "duration": "8:16",
+            "description": "Building optimized images and using multi-stage builds.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 4,
+            "materials": [
+              {
+                "id": "mat-4-1",
+                "name": "Lesson_4_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_4_Slides.pdf"
+              },
+              {
+                "id": "mat-4-2",
+                "name": "Source_Code_4.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_4.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-5",
+            "title": "Container Registry & Security",
+            "duration": "9:18",
+            "description": "Pushing images and scanning for vulnerabilities.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 5,
+            "materials": [
+              {
+                "id": "mat-5-1",
+                "name": "Lesson_5_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_5_Slides.pdf"
+              },
+              {
+                "id": "mat-5-2",
+                "name": "Source_Code_5.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_5.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-6",
+            "title": "Infrastructure as Code with Terraform",
+            "duration": "10:20",
+            "description": "Provisioning cloud resources using declarative code.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 6,
+            "materials": [
+              {
+                "id": "mat-6-1",
+                "name": "Lesson_6_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_6_Slides.pdf"
+              },
+              {
+                "id": "mat-6-2",
+                "name": "Source_Code_6.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_6.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-7",
+            "title": "Config Management with Ansible",
+            "duration": "11:22",
+            "description": "Automating server setup and application deployment.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 7,
+            "materials": [
+              {
+                "id": "mat-7-1",
+                "name": "Lesson_7_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_7_Slides.pdf"
+              },
+              {
+                "id": "mat-7-2",
+                "name": "Source_Code_7.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_7.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-8",
+            "title": "Monitoring & Logging Stack",
+            "duration": "12:24",
+            "description": "Implementing Prometheus, Grafana, and ELK stack.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 8,
+            "materials": [
+              {
+                "id": "mat-8-1",
+                "name": "Lesson_8_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_8_Slides.pdf"
+              },
+              {
+                "id": "mat-8-2",
+                "name": "Source_Code_8.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_8.zip"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "m2",
+        "title": "Module 2: Advanced CI/CD & Orchestration",
+        "lessons": [
+          {
+            "id": "l-9",
+            "title": "Kubernetes Fundamentals (K8s)",
+            "duration": "10:00",
+            "description": "Understanding pods, services, and deployments.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 9,
+            "materials": [
+              {
+                "id": "mat-9-1",
+                "name": "Lesson_9_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_9_Slides.pdf"
+              },
+              {
+                "id": "mat-9-2",
+                "name": "Source_Code_9.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_9.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-10",
+            "title": "Helm Charts & Package Management",
+            "duration": "11:03",
+            "description": "Managing complex Kubernetes applications with ease.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 10,
+            "materials": [
+              {
+                "id": "mat-10-1",
+                "name": "Lesson_10_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_10_Slides.pdf"
+              },
+              {
+                "id": "mat-10-2",
+                "name": "Source_Code_10.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_10.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-11",
+            "title": "GitOps with ArgoCD",
+            "duration": "12:06",
+            "description": "Automating continuous delivery from Git to Cluster.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 11,
+            "materials": [
+              {
+                "id": "mat-11-1",
+                "name": "Lesson_11_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_11_Slides.pdf"
+              },
+              {
+                "id": "mat-11-2",
+                "name": "Source_Code_11.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_11.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-12",
+            "title": "Blue-Green & Canary Deployments",
+            "duration": "13:09",
+            "description": "Advanced rollout strategies for zero downtime.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 12,
+            "materials": [
+              {
+                "id": "mat-12-1",
+                "name": "Lesson_12_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_12_Slides.pdf"
+              },
+              {
+                "id": "mat-12-2",
+                "name": "Source_Code_12.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_12.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-13",
+            "title": "Service Mesh with Istio",
+            "duration": "14:12",
+            "description": "Handling inter-service security and traffic management.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 13,
+            "materials": [
+              {
+                "id": "mat-13-1",
+                "name": "Lesson_13_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_13_Slides.pdf"
+              },
+              {
+                "id": "mat-13-2",
+                "name": "Source_Code_13.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_13.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-14",
+            "title": "DevSecOps: Secure Pipeline Design",
+            "duration": "15:15",
+            "description": "Automating security testing within the CI/CD cycle.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 14,
+            "materials": [
+              {
+                "id": "mat-14-1",
+                "name": "Lesson_14_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_14_Slides.pdf"
+              },
+              {
+                "id": "mat-14-2",
+                "name": "Source_Code_14.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_14.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-15",
+            "title": "Cloud-Native FinOps Basics",
+            "duration": "16:18",
+            "description": "Monitoring and reducing cloud infrastructure costs.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 15,
+            "materials": [
+              {
+                "id": "mat-15-1",
+                "name": "Lesson_15_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_15_Slides.pdf"
+              },
+              {
+                "id": "mat-15-2",
+                "name": "Source_Code_15.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_15.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-16",
+            "title": "Chaos Engineering Fundamentals",
+            "duration": "17:21",
+            "description": "Testing system resilience through controlled failures.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 16,
+            "materials": [
+              {
+                "id": "mat-16-1",
+                "name": "Lesson_16_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_16_Slides.pdf"
+              },
+              {
+                "id": "mat-16-2",
+                "name": "Source_Code_16.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_16.zip"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course": {
+      "id": "10",
+      "title": "AWS Cloud Fundamentals",
+      "shortDescription": "Learn core AWS services, architecture, and cloud best practices.",
+      "coverImage": "https://placehold.co/400x200/141414/ff9900?text=AWS",
+      "category": {
+        "name": "CLOUD",
+        "icon": "heroicons:cloud"
+      },
+      "lessonsCount": 22,
+      "duration": "9h 30m",
+      "progress": 0
+    },
+    "modules": [
+      {
+        "id": "m1",
+        "title": "Module 1: Global Infrastructure & Computing",
+        "lessons": [
+          {
+            "id": "l-1",
+            "title": "AWS Global Infrastructure Overview",
+            "duration": "5:10",
+            "description": "Understanding Regions, AZs, and Edge Locations.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": false,
+            "order": 1,
+            "materials": [
+              {
+                "id": "mat-1-1",
+                "name": "Lesson_1_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_1_Slides.pdf"
+              },
+              {
+                "id": "mat-1-2",
+                "name": "Source_Code_1.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_1.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-2",
+            "title": "EC2: Virtual Server Launch & Config",
+            "duration": "6:12",
+            "description": "Working with AMIs, Instance Types, and Key Pairs.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 2,
+            "materials": [
+              {
+                "id": "mat-2-1",
+                "name": "Lesson_2_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_2_Slides.pdf"
+              },
+              {
+                "id": "mat-2-2",
+                "name": "Source_Code_2.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_2.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-3",
+            "title": "AWS S3: Simple Storage Service",
+            "duration": "7:14",
+            "description": "Bucket management, permissions, and storage classes.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 3,
+            "materials": [
+              {
+                "id": "mat-3-1",
+                "name": "Lesson_3_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_3_Slides.pdf"
+              },
+              {
+                "id": "mat-3-2",
+                "name": "Source_Code_3.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_3.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-4",
+            "title": "Identity & Access Management (IAM)",
+            "duration": "8:16",
+            "description": "Configuring users, groups, and security roles.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 4,
+            "materials": [
+              {
+                "id": "mat-4-1",
+                "name": "Lesson_4_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_4_Slides.pdf"
+              },
+              {
+                "id": "mat-4-2",
+                "name": "Source_Code_4.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_4.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-5",
+            "title": "VPC: Networking Foundations",
+            "duration": "9:18",
+            "description": "Subnets, Internet Gateways, and Security Groups.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 5,
+            "materials": [
+              {
+                "id": "mat-5-1",
+                "name": "Lesson_5_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_5_Slides.pdf"
+              },
+              {
+                "id": "mat-5-2",
+                "name": "Source_Code_5.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_5.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-6",
+            "title": "AWS Lambda & Serverless Intro",
+            "duration": "10:20",
+            "description": "Event-driven computing without managing servers.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 6,
+            "materials": [
+              {
+                "id": "mat-6-1",
+                "name": "Lesson_6_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_6_Slides.pdf"
+              },
+              {
+                "id": "mat-6-2",
+                "name": "Source_Code_6.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_6.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-7",
+            "title": "Database Overview: RDS & DynamoDB",
+            "duration": "11:22",
+            "description": "Relational vs NoSQL managed services.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 7,
+            "materials": [
+              {
+                "id": "mat-7-1",
+                "name": "Lesson_7_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_7_Slides.pdf"
+              },
+              {
+                "id": "mat-7-2",
+                "name": "Source_Code_7.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_7.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-8",
+            "title": "Route 53 & DNS Management",
+            "duration": "12:24",
+            "description": "Connecting domains to AWS resources.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 8,
+            "materials": [
+              {
+                "id": "mat-8-1",
+                "name": "Lesson_8_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_8_Slides.pdf"
+              },
+              {
+                "id": "mat-8-2",
+                "name": "Source_Code_8.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_8.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-9",
+            "title": "Content Delivery with CloudFront",
+            "duration": "13:26",
+            "description": "Caching static assets globally for low latency.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 9,
+            "materials": [
+              {
+                "id": "mat-9-1",
+                "name": "Lesson_9_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_9_Slides.pdf"
+              },
+              {
+                "id": "mat-9-2",
+                "name": "Source_Code_9.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_9.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-10",
+            "title": "Auto Scaling & Load Balancing",
+            "duration": "14:28",
+            "description": "Building elastic and fault-tolerant architectures.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 10,
+            "materials": [
+              {
+                "id": "mat-10-1",
+                "name": "Lesson_10_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_10_Slides.pdf"
+              },
+              {
+                "id": "mat-10-2",
+                "name": "Source_Code_10.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_10.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-11",
+            "title": "CloudWatch & SNS: Monitoring",
+            "duration": "15:30",
+            "description": "Tracking metrics and setting up automated alerts.",
+            "level": "Beginner",
+            "updatedAt": "Jan 2024",
+            "completed": false,
+            "locked": true,
+            "order": 11,
+            "materials": [
+              {
+                "id": "mat-11-1",
+                "name": "Lesson_11_Slides.pdf",
+                "size": "2.4 MB",
+                "url": "/api/download/materials/Lesson_11_Slides.pdf"
+              },
+              {
+                "id": "mat-11-2",
+                "name": "Source_Code_11.zip",
+                "size": "156 KB",
+                "url": "/api/download/materials/Source_Code_11.zip"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "m2",
+        "title": "Module 2: Cloud Solutions Architecture",
+        "lessons": [
+          {
+            "id": "l-12",
+            "title": "AWS Well-Architected Framework",
+            "duration": "10:00",
+            "description": "The 5 pillars for optimized cloud solutions.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 12,
+            "materials": [
+              {
+                "id": "mat-12-1",
+                "name": "Lesson_12_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_12_Slides.pdf"
+              },
+              {
+                "id": "mat-12-2",
+                "name": "Source_Code_12.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_12.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-13",
+            "title": "High Availability with Multi-AZ",
+            "duration": "11:03",
+            "description": "Designing for disaster recovery and failover.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 13,
+            "materials": [
+              {
+                "id": "mat-13-1",
+                "name": "Lesson_13_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_13_Slides.pdf"
+              },
+              {
+                "id": "mat-13-2",
+                "name": "Source_Code_13.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_13.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-14",
+            "title": "Data Lakes with AWS Lake Formation",
+            "duration": "12:06",
+            "description": "Organizing and securing Big Data storage.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 14,
+            "materials": [
+              {
+                "id": "mat-14-1",
+                "name": "Lesson_14_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_14_Slides.pdf"
+              },
+              {
+                "id": "mat-14-2",
+                "name": "Source_Code_14.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_14.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-15",
+            "title": "Microservices with ECS & EKS",
+            "duration": "13:09",
+            "description": "Running containerized applications at scale.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 15,
+            "materials": [
+              {
+                "id": "mat-15-1",
+                "name": "Lesson_15_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_15_Slides.pdf"
+              },
+              {
+                "id": "mat-15-2",
+                "name": "Source_Code_15.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_15.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-16",
+            "title": "Serverless API Architecture",
+            "duration": "14:12",
+            "description": "Using API Gateway and Step Functions for orchestration.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 16,
+            "materials": [
+              {
+                "id": "mat-16-1",
+                "name": "Lesson_16_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_16_Slides.pdf"
+              },
+              {
+                "id": "mat-16-2",
+                "name": "Source_Code_16.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_16.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-17",
+            "title": "Infrastructure as Code: CloudFormation",
+            "duration": "15:15",
+            "description": "Automating resource creation with templates.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 17,
+            "materials": [
+              {
+                "id": "mat-17-1",
+                "name": "Lesson_17_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_17_Slides.pdf"
+              },
+              {
+                "id": "mat-17-2",
+                "name": "Source_Code_17.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_17.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-18",
+            "title": "AWS Security Best Practices",
+            "duration": "16:18",
+            "description": "Using Shield, WAF, and GuardDuty.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 18,
+            "materials": [
+              {
+                "id": "mat-18-1",
+                "name": "Lesson_18_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_18_Slides.pdf"
+              },
+              {
+                "id": "mat-18-2",
+                "name": "Source_Code_18.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_18.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-19",
+            "title": "DevOps on AWS: CodePipeline",
+            "duration": "17:21",
+            "description": "Automating the software delivery lifecycle.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 19,
+            "materials": [
+              {
+                "id": "mat-19-1",
+                "name": "Lesson_19_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_19_Slides.pdf"
+              },
+              {
+                "id": "mat-19-2",
+                "name": "Source_Code_19.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_19.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-20",
+            "title": "Cloud Financial Management",
+            "duration": "18:24",
+            "description": "Monitoring costs with Savings Plans and Budgets.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 20,
+            "materials": [
+              {
+                "id": "mat-20-1",
+                "name": "Lesson_20_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_20_Slides.pdf"
+              },
+              {
+                "id": "mat-20-2",
+                "name": "Source_Code_20.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_20.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-21",
+            "title": "Machine Learning with SageMaker",
+            "duration": "19:27",
+            "description": "Overview of AI services and model deployment.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 21,
+            "materials": [
+              {
+                "id": "mat-21-1",
+                "name": "Lesson_21_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_21_Slides.pdf"
+              },
+              {
+                "id": "mat-21-2",
+                "name": "Source_Code_21.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_21.zip"
+              }
+            ]
+          },
+          {
+            "id": "l-22",
+            "title": "Final Project: Scaling a Global Web App",
+            "duration": "20:30",
+            "description": "End-to-end architecture design and implementation.",
+            "level": "Advanced",
+            "updatedAt": "Mar 2024",
+            "completed": false,
+            "locked": true,
+            "order": 22,
+            "materials": [
+              {
+                "id": "mat-22-1",
+                "name": "Lesson_22_Slides.pdf",
+                "size": "1.8 MB",
+                "url": "/api/download/materials/Lesson_22_Slides.pdf"
+              },
+              {
+                "id": "mat-22-2",
+                "name": "Source_Code_22.zip",
+                "size": "89 KB",
+                "url": "/api/download/materials/Source_Code_22.zip"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

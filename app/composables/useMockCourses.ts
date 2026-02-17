@@ -1,6 +1,6 @@
 import type { Course } from '../types/course'
 
-const MOCK_COURSES: Course[] = [
+export const MOCK_COURSES: Course[] = [
   {
     id: '1',
     title: 'Advanced Vue 3 Patterns',
@@ -62,6 +62,48 @@ const MOCK_COURSES: Course[] = [
     lessonsCount: 10,
     duration: '3h 45m',
     progress: 10,
+  },
+  {
+    id: '7',
+    title: 'React & TypeScript Mastery',
+    shortDescription: 'Build type-safe React applications with TypeScript, hooks, and modern patterns.',
+    coverImage: 'https://placehold.co/400x200/141414/61dafb?text=React+TS',
+    category: { name: 'DEVELOPMENT', icon: 'heroicons:code-bracket' },
+    lessonsCount: 14,
+    duration: '5h 20m',
+    progress: 30,
+    statusBadge: 'New',
+  },
+  {
+    id: '8',
+    title: 'Mobile Development with Flutter',
+    shortDescription: 'Create cross-platform mobile apps with Flutter and Dart.',
+    coverImage: 'https://placehold.co/400x200/141414/02569B?text=Flutter',
+    category: { name: 'MOBILE', icon: 'heroicons:device-phone-mobile' },
+    lessonsCount: 20,
+    duration: '7h 15m',
+    progress: 50,
+  },
+  {
+    id: '9',
+    title: 'DevOps & CI/CD Pipelines',
+    shortDescription: 'Automate builds, tests, and deployments with modern DevOps tools.',
+    coverImage: 'https://placehold.co/400x200/141414/f05032?text=DevOps',
+    category: { name: 'DEVOPS', icon: 'heroicons:cpu-chip' },
+    lessonsCount: 16,
+    duration: '6h 00m',
+    progress: 15,
+    statusBadge: 'Popular',
+  },
+  {
+    id: '10',
+    title: 'AWS Cloud Fundamentals',
+    shortDescription: 'Learn core AWS services, architecture, and cloud best practices.',
+    coverImage: 'https://placehold.co/400x200/141414/ff9900?text=AWS',
+    category: { name: 'CLOUD', icon: 'heroicons:cloud' },
+    lessonsCount: 22,
+    duration: '9h 30m',
+    progress: 0,
   },
 ]
 

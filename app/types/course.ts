@@ -1,3 +1,5 @@
+import type { Module } from './lesson'
+
 export interface Course {
   id: string
   title: string
@@ -11,4 +13,9 @@ export interface Course {
   duration: string
   progress: number
   statusBadge?: string
+}
+
+export interface CourseDetail {
+  course: Course
+  modules: Module[]
 }

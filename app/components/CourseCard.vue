@@ -55,7 +55,7 @@
       </div>
       <div class="flex flex-col gap-2 pt-1">
         <ButtonAction
-          label="Continue"
+          :label="course.progress === 0 ? 'Start' : course.progress === 100 ? 'Completed' : 'Continue'"
           type="button"
           @click="handleContinue"
         />

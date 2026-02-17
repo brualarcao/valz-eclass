@@ -16,5 +16,6 @@ export default defineNuxtConfig({
   runtimeConfig: {
     loginEmail: '',
     loginPassword: '',
+    emptyState: false,
   },
 })
