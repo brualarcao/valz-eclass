@@ -6,7 +6,7 @@
 
 <script setup lang="ts">
 useHead({
-  titleTemplate: (title) => title ? `${title} - Valz eClass` : 'Valz eClass - Login',
+  titleTemplate: 'Valz eClass - Bruno Alarcão',
   htmlAttrs: {
     lang: 'pt-BR'
   }

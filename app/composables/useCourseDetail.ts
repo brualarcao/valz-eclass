@@ -11,7 +11,7 @@ function firstUnlockedLesson(detail: CourseDetail): Lesson | null {
 }
 
 export function useCourseDetail(courseId: MaybeRefOrGetter<string>) {
-  const url = computed(() => `/api/courses/${toValue(courseId)}`)
+  const url = computed(() => `/data/courses/${toValue(courseId)}.json`)
   const { data: detailData, pending, error } = useFetch<CourseDetail>(url)
 
   const detail = computed<CourseDetail | null>(() => detailData.value ?? null)

@@ -146,10 +146,13 @@ async function handleSubmit() {
   errorMessage.value = ''
   loading.value = true
   try {
-    const { success } = await $fetch<{ success: boolean }>('/api/auth/login', {
-      method: 'POST',
-      body: { email: email.value, password: password.value },
-    })
+    const auth = await $fetch<{ loginEmail: string; loginPassword: string }>('/data/auth.json')
+    const validEmail = (auth.loginEmail ?? '').trim()
+    const validPassword = (auth.loginPassword ?? '').trim()
+    const success =
+      validEmail && validPassword &&
+      email.value.trim() === validEmail &&
+      String(password.value) === String(validPassword)
     if (success) {
       await new Promise(resolve => setTimeout(resolve, 2000))
       await navigateTo('/dashboard')

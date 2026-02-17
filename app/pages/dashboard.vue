@@ -82,7 +82,7 @@ const isMinLoadingActive = ref(true)
 onMounted(() => {
   setTimeout(() => {
     isMinLoadingActive.value = false
-  }, 3000)
+  }, 1500)
 })
 const showSkeleton = computed(() => pending.value || isMinLoadingActive.value)
 
