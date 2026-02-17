@@ -1,0 +1,1 @@
+export type CourseFilterValue = 'in-progress' | 'completed' | 'not-started' | 'all'

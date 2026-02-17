@@ -15,38 +15,19 @@
     </template>
 
     <template v-else>
-      <nav
-        class="w-full py-2 text-sm text-text-secondary"
-        aria-label="Navegação"
-      >
-        <ol class="flex flex-wrap items-center gap-1.5">
-          <li>
-            <NuxtLink
-              to="/dashboard"
-              class="hover:text-brand-primary transition-colors focus:outline-none focus:ring-2 focus:ring-brand-primary/50 rounded"
-            >
-            Dashboard /
-            </NuxtLink>
-          </li>
-          <li aria-hidden="true">
-            <Icon name="heroicons:chevron-right" class="w-4 h-4 inline shrink-0" />
-          </li>
-          <li>
-            <NuxtLink
-              :to="`/courses/${route.params.id}`"
-              class="hover:text-brand-primary transition-colors focus:outline-none focus:ring-2 focus:ring-brand-primary/50 rounded"
-            >
-             {{ detail.course.title }} /
-            </NuxtLink>
-          </li>
-          <li v-if="currentLesson" aria-hidden="true">
-            <Icon name="heroicons:chevron-right" class="w-4 h-4 inline shrink-0" />
-          </li>
-          <li v-if="currentLesson" class="text-brand-primary">
-            Lesson {{ currentLesson.order }} 
-          </li>
-        </ol>
-      </nav>
+      <div class="flex items-center gap-3 w-full py-2">
+        <NuxtLink
+          to="/dashboard"
+          class="flex items-center justify-center w-10 h-10 shrink-0 rounded-lg text-text-secondary hover:text-brand-primary hover:bg-brand-surface transition-colors focus:outline-none focus:ring-2 focus:ring-brand-primary/50"
+          aria-label="Voltar ao Dashboard"
+        >
+          <Icon name="heroicons:arrow-left" class="w-5 h-5" />
+        </NuxtLink>
+        <h2 class="text-lg font-semibold text-brand-primary truncate min-w-0">
+          {{ detail.course.title }}
+        </h2>
+      </div>
+
 
       <div class="flex items-center justify-between gap-4 py-3">
         <h1 class="text-xl sm:text-2xl font-bold text-text-primary truncate min-w-0">
@@ -80,6 +61,7 @@
             :key="currentLessonId"
             :src="currentLesson?.videoUrl"
             :poster="detail.course.coverImage"
+            :placeholder-label="currentLesson ? `Aula ${currentLesson.order}: ${currentLesson.title}` : ''"
           />
 
           <section v-if="currentLesson" class="flex flex-col gap-4">

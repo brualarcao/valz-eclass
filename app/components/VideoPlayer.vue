@@ -8,9 +8,20 @@
       playsinline
       @timeupdate="onTimeUpdate"
       @loadedmetadata="onLoadedMetadata"
+      @loadeddata="onLoadedData"
+      @error="onVideoError"
       @play="isPlaying = true"
       @pause="isPlaying = false"
     />
+    <div
+      v-if="isLoading"
+      class="absolute inset-0 z-10 flex flex-col items-center justify-center bg-black/60 pointer-events-none"
+      aria-live="polite"
+      aria-busy="true"
+    >
+      <Icon name="heroicons:arrow-path" class="w-10 h-10 text-brand-primary animate-spin shrink-0" aria-hidden="true" />
+      <span class="mt-3 text-sm font-medium text-white">Carregando vídeo...</span>
+    </div>
     <div
       class="absolute inset-x-0 bottom-0 flex flex-col justify-end bg-gradient-to-t from-black/80 to-transparent pt-12 pb-2 px-3"
     >
@@ -75,9 +86,10 @@
     </div>
     <div
       v-if="!src && !poster"
-      class="absolute inset-0 flex items-center justify-center bg-brand-surface"
+      class="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-brand-surface"
     >
-      <Icon name="heroicons:play-circle" class="w-16 h-16 text-brand-primary" />
+      <Icon name="heroicons:play-circle" class="w-16 h-16 text-brand-primary shrink-0" />
+      <span v-if="placeholderLabel" class="text-sm text-text-secondary text-center px-4">{{ placeholderLabel }}</span>
     </div>
   </div>
 </template>
@@ -87,11 +99,13 @@ const props = withDefaults(
   defineProps<{
     src?: string
     poster?: string
+    placeholderLabel?: string
   }>(),
-  { src: '', poster: '' },
+  { src: '', poster: '', placeholderLabel: '' },
 )
 
 const videoRef = ref<HTMLVideoElement | null>(null)
+const isLoading = ref(false)
 const isPlaying = ref(false)
 const isMuted = ref(false)
 const isFullscreen = ref(false)
@@ -123,6 +137,14 @@ function onLoadedMetadata() {
   const v = videoRef.value
   if (v)
     duration.value = v.duration
+}
+
+function onLoadedData() {
+  isLoading.value = false
+}
+
+function onVideoError() {
+  isLoading.value = false
 }
 
 function togglePlay() {
@@ -165,7 +187,19 @@ function toggleFullscreen() {
   }
 }
 
+watch(
+  () => props.src,
+  (newSrc) => {
+    if (newSrc?.trim())
+      isLoading.value = true
+    else
+      isLoading.value = false
+  },
+)
+
 onMounted(() => {
+  if (props.src?.trim())
+    isLoading.value = true
   document.addEventListener('fullscreenchange', () => {
     isFullscreen.value = !!document.fullscreenElement
   })
