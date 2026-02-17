@@ -41,9 +41,15 @@
       />
     </section>
     <section
-      class="w-full flex flex-col md:flex-row md:items-center md:justify-between gap-4 md:gap-6 py-4 md:py-5 px-0 text-white"
+      class="w-full flex flex-col gap-4 md:gap-6 py-4 md:py-5 px-0"
     >
-      Cursos
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-3 w-full">
+        <CourseCard
+          v-for="course in courses"
+          :key="course.id"
+          :course="course"
+        />
+      </div>
     </section>
   </div>
 </template>
@@ -55,4 +61,5 @@ const searchQuery = ref('')
 const courseFilter = ref<'in-progress' | 'completed' | 'not-started'>('in-progress')
 const completedCount = ref(12)
 const notStartedCount = ref(5)
+const courses = useMockCourses()
 </script>
