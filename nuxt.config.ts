@@ -30,7 +30,7 @@ export default defineNuxtConfig({
   nitro: {
     static: true,
   },
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/icon', '@vite-pwa/nuxt'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/icon', '@vite-pwa/nuxt', '@nuxt/test-utils/module'],
   typescript: {
     strict: true
   },
