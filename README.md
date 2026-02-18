@@ -22,6 +22,62 @@ Recomenda-se **Node.js 20+** (LTS).
 
 ---
 
+## Pontos extras desenvolvidos
+
+### Funcionalidades e PWA (Progressive Web App):
+[x] Manifest configurado: Arquivo manifest.webmanifest gerado via @vite-pwa/nuxt, definindo cores, nome e comportamento da aplicação no dispositivo.
+
+[x] Ícones: Implementação de ícones responsivos e adaptáveis para diferentes densidades de tela através da lib @nuxt/icons e ícones referentes ao favicon e manifest adquiridos do site [ValzDigital](https://valzdigital.com/).
+
+[x] Cache básico/offline funcional: Configuração de Service Workers para garantir a disponibilidade de recursos essenciais mesmo sem conexão com a internet.
+
+[x] README detalhado: Documentação completa incluindo o guia de instalação, execução do script de mock e instruções de teste.
+
+### Bônus:
+[x] Testes unitários implementados com vitest.
+
+[x] Tela de login.
+
+[x] Aplicação disponibilizada em deploy SSG na Vercel.
+
+---
+
+## Processo de Desenvolvimento
+
+O desenvolvimento deste projeto seguiu um fluxo focado em escalabilidade, fidelidade visual e resolução técnica de problemas, conforme detalhado abaixo:
+
+🎨 Design e Identidade Visual
+O processo iniciou-se com uma análise do site atual da [ValzDigital](https://valzdigital.com/), utilizado como referência primária para a definição da paleta de cores e identidade visual.
+
+Concepção: Com as diretrizes visuais em mãos, utilizei o Stitch Design AI para a geração das telas. Isso permitiu estabelecer um Norte claro para o desenvolvimento, garantindo que o Design System fosse consistente desde o primeiro componente.
+
+Estilização: Optou-se pelo Tailwind CSS, unindo a agilidade de desenvolvimento por classes utilitárias à conformidade com os requisitos técnicos propostos.
+
+🛠️ Arquitetura e Estratégia de Git
+Para a gestão de código, segui o fluxo de ramificações (branching) para garantir a integridade da aplicação:
+
+Main Branch: Mantida como a fonte da verdade e versão mais estável/atualizada.
+
+Feature Branches: Cada nova funcionalidade foi desenvolvida em branches isoladas, integradas à main via Pull Requests (PRs) após a conclusão e validação, garantindo um histórico de commits organizado.
+
+🔌 Ecossistema Nuxt
+Aproveitando o poder do ecossistema Nuxt 4, as integrações foram feitas utilizando módulos nativos para garantir performance e compatibilidade:
+
+Ícones: Gerenciados via @nuxt/icons.
+
+PWA: Implementação de funcionalidades de cache e manifest através da lib @vite-pwa/nuxt.
+
+⚡ Desafios Técnicos e Soluções (Build & Mocking)
+Durante o desenvolvimento, surgiram desafios significativos para garantir a consistência dos dados entre o modo de desenvolvimento (dev) e o build estático.
+
+O Problema: Instabilidades na leitura de dados dinâmicos em diferentes ambientes de execução.
+
+A Solução: Desenvolvi um script customizado de pré-processamento. Este script realiza a leitura dos mocks de cursos e credenciais de login, transformando-os em arquivos .json estáticos.
+
+Resultado: Essa estratégia garantiu que a consulta e a renderização dos dados ocorressem de forma idêntica e performática tanto localmente quanto no ambiente SSG de produção.
+
+---
+
 ## Rotas principais
 
 | Rota | Descrição |
