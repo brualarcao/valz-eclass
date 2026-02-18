@@ -172,7 +172,7 @@ Instale o pacote `serve` globalmente se preferir: `npm install -g serve`, depois
 O projeto está configurado para **SSG** (`nuxt generate`, `nitro.static: true`).
 
 1. **Variáveis de ambiente:** Configure no painel da hospedagem `NUXT_PUBLIC_LOGIN_EMAIL`, `NUXT_PUBLIC_LOGIN_PASSWORD` e, se quiser, `NUXT_EMPTY_STATE`.
-2. **Build:** `npm ci && npm run generate` (ou o equivalente na plataforma).
+2. **Build:** `node scripts/copy-courses-to-public.mjs && nuxt generate`.
 3. **Diretório de publicação:** Defina como **`.output/public`** (em algumas plataformas: "Publish directory", "Output directory").
 
 Hospedagens adequadas para Nuxt SSG: **Vercel**, **Netlify**, **Cloudflare Pages**, **GitHub Pages** (com workflow que rode `generate` e publique `.output/public`). Consulte a [documentação oficial de deploy do Nuxt](https://nuxt.com/docs/getting-started/deployment).
