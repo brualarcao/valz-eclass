@@ -25,20 +25,20 @@ Recomenda-se **Node.js 20+** (LTS).
 ## Pontos extras desenvolvidos
 
 ### Funcionalidades e PWA (Progressive Web App):
-[x] Manifest configurado: Arquivo manifest.webmanifest gerado via @vite-pwa/nuxt, definindo cores, nome e comportamento da aplicação no dispositivo.
+✅ Manifest configurado: Arquivo manifest.webmanifest gerado via @vite-pwa/nuxt, definindo cores, nome e comportamento da aplicação no dispositivo.
 
-[x] Ícones: Implementação de ícones responsivos e adaptáveis para diferentes densidades de tela através da lib @nuxt/icons e ícones referentes ao favicon e manifest adquiridos do site [ValzDigital](https://valzdigital.com/).
+✅ Ícones: Implementação de ícones responsivos e adaptáveis para diferentes densidades de tela através da lib @nuxt/icons e ícones referentes ao favicon e manifest adquiridos do site [ValzDigital](https://valzdigital.com/).
 
-[x] Cache básico/offline funcional: Configuração de Service Workers para garantir a disponibilidade de recursos essenciais mesmo sem conexão com a internet.
+✅ Cache básico/offline funcional: Configuração de Service Workers para garantir a disponibilidade de recursos essenciais mesmo sem conexão com a internet.
 
-[x] README detalhado: Documentação completa incluindo o guia de instalação, execução do script de mock e instruções de teste.
+✅ README detalhado: Documentação completa incluindo o guia de instalação, execução do script de mock e instruções de teste.
 
 ### Bônus:
-[x] Testes unitários implementados com vitest.
+✅ Testes unitários implementados com vitest.
 
-[x] Tela de login.
+✅ Tela de login.
 
-[x] Aplicação disponibilizada em deploy SSG na Vercel.
+✅ Aplicação disponibilizada em deploy SSG na Vercel.
 
 ---
 
