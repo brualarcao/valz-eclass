@@ -1,4 +1,4 @@
-import type { Ref } from 'vue'
+import { computed, type Ref } from 'vue'
 import type { Course } from '../types/course'
 import type { CourseFilterValue } from '../types/courseFilter'
 
