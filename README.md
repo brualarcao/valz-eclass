@@ -123,5 +123,10 @@ Hospedagens adequadas para Nuxt SSG: **Vercel**, **Netlify**, **Cloudflare Pages
 
 ---
 
+## Versão disponibilizada em host gratuito
+
+Foi realizado o deploy utilizando a branch `main` na Vercel e pode ser acessado no link:
+[Valz eClass](https://valz-eclass.vercel.app/)
+
 
 **Feito por:** Bruno Alarcão.
