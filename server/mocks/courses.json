@@ -29,6 +29,7 @@
             "completed": true,
             "locked": false,
             "order": 1,
+            "videoUrl": "https://www.youtube.com/watch?v=7tP3YfT9E5k",
             "materials": [
               {
                 "id": "mat-1-1",
@@ -54,6 +55,7 @@
             "completed": true,
             "locked": false,
             "order": 2,
+            "videoUrl": "https://www.youtube.com/watch?v=Ke90Tje7VS0",
             "materials": [
               {
                 "id": "mat-2-1",
@@ -79,6 +81,7 @@
             "completed": true,
             "locked": false,
             "order": 3,
+            "videoUrl": "https://www.youtube.com/watch?v=Kx7xW9lFf7k",
             "materials": [
               {
                 "id": "mat-3-1",
@@ -104,6 +107,7 @@
             "completed": true,
             "locked": false,
             "order": 4,
+            "videoUrl": "https://www.youtube.com/watch?v=dGcsHMXbSOA",
             "materials": [
               {
                 "id": "mat-4-1",
@@ -129,6 +133,7 @@
             "completed": true,
             "locked": false,
             "order": 5,
+            "videoUrl": "https://www.youtube.com/watch?v=Kx7xW9lFf7k",
             "materials": [
               {
                 "id": "mat-5-1",
@@ -154,6 +159,7 @@
             "completed": false,
             "locked": false,
             "order": 6,
+            "videoUrl": "https://www.youtube.com/watch?v=F9s0rjKcJfY",
             "materials": [
               {
                 "id": "mat-6-1",
@@ -185,6 +191,7 @@
             "completed": false,
             "locked": true,
             "order": 7,
+            "videoUrl": "https://www.youtube.com/watch?v=3aE9uGzX9eE",
             "materials": [
               {
                 "id": "mat-7-1",
@@ -210,6 +217,7 @@
             "completed": false,
             "locked": true,
             "order": 8,
+            "videoUrl": "https://www.youtube.com/watch?v=3aE9uGzX9eE",
             "materials": [
               {
                 "id": "mat-8-1",
@@ -235,6 +243,7 @@
             "completed": false,
             "locked": true,
             "order": 9,
+            "videoUrl": "https://www.youtube.com/watch?v=2LaAJq1lB1Q",
             "materials": [
               {
                 "id": "mat-9-1",
@@ -260,6 +269,7 @@
             "completed": false,
             "locked": true,
             "order": 10,
+            "videoUrl": "https://www.youtube.com/watch?v=eOBq__h4OJ4",
             "materials": [
               {
                 "id": "mat-10-1",
@@ -285,6 +295,7 @@
             "completed": false,
             "locked": true,
             "order": 11,
+            "videoUrl": "https://www.youtube.com/watch?v=Kx7xW9lFf7k",
             "materials": [
               {
                 "id": "mat-11-1",
@@ -310,6 +321,7 @@
             "completed": false,
             "locked": true,
             "order": 12,
+            "videoUrl": "https://www.youtube.com/watch?v=77lMCiiMilo",
             "materials": [
               {
                 "id": "mat-12-1",
@@ -358,6 +370,7 @@
             "completed": true,
             "locked": false,
             "order": 1,
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
             "materials": [
               {
                 "id": "mat-1-1",
@@ -383,6 +396,7 @@
             "completed": true,
             "locked": false,
             "order": 2,
+            "videoUrl": "https://www.youtube.com/watch?v=3aE9uGzX9eE",
             "materials": [
               {
                 "id": "mat-2-1",
@@ -408,6 +422,7 @@
             "completed": true,
             "locked": false,
             "order": 3,
+            "videoUrl": "https://www.youtube.com/watch?v=eOBq__h4OJ4",
             "materials": [
               {
                 "id": "mat-3-1",
@@ -433,6 +448,7 @@
             "completed": true,
             "locked": false,
             "order": 4,
+            "videoUrl": "https://www.youtube.com/watch?v=JIbIYCM48to",
             "materials": [
               {
                 "id": "mat-4-1",
@@ -464,6 +480,7 @@
             "completed": true,
             "locked": false,
             "order": 5,
+            "videoUrl": "https://www.youtube.com/watch?v=HhL0ZpS9zYc",
             "materials": [
               {
                 "id": "mat-5-1",
@@ -489,6 +506,7 @@
             "completed": true,
             "locked": false,
             "order": 6,
+            "videoUrl": "https://www.youtube.com/watch?v=sBws8MSXN7A",
             "materials": [
               {
                 "id": "mat-6-1",
@@ -514,6 +532,7 @@
             "completed": true,
             "locked": false,
             "order": 7,
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
             "materials": [
               {
                 "id": "mat-7-1",
@@ -539,6 +558,7 @@
             "completed": true,
             "locked": false,
             "order": 8,
+            "videoUrl": "https://www.youtube.com/watch?v=Kx7xW9lFf7k",
             "materials": [
               {
                 "id": "mat-8-1",
@@ -588,6 +608,7 @@
             "completed": true,
             "locked": false,
             "order": 1,
+            "videoUrl": "https://www.youtube.com/watch?v=w7ejDZ8SWv8",
             "materials": [
               {
                 "id": "mat-1-1",
@@ -613,6 +634,7 @@
             "completed": true,
             "locked": false,
             "order": 2,
+            "videoUrl": "https://www.youtube.com/watch?v=UB1O30fR-EE",
             "materials": [
               {
                 "id": "mat-2-1",
@@ -638,6 +660,7 @@
             "completed": true,
             "locked": false,
             "order": 3,
+            "videoUrl": "https://www.youtube.com/watch?v=Y8K9v5c8R3I",
             "materials": [
               {
                 "id": "mat-3-1",
@@ -663,6 +686,7 @@
             "completed": true,
             "locked": false,
             "order": 4,
+            "videoUrl": "https://www.youtube.com/watch?v=Kx7xW9lFf7k",
             "materials": [
               {
                 "id": "mat-4-1",
@@ -688,6 +712,7 @@
             "completed": false,
             "locked": false,
             "order": 5,
+            "videoUrl": "https://www.youtube.com/watch?v=Y8K9v5c8R3I",
             "materials": [
               {
                 "id": "mat-5-1",
@@ -713,6 +738,7 @@
             "completed": false,
             "locked": true,
             "order": 6,
+            "videoUrl": "https://www.youtube.com/watch?v=JIbIYCM48to",
             "materials": [
               {
                 "id": "mat-6-1",
@@ -738,6 +764,7 @@
             "completed": false,
             "locked": true,
             "order": 7,
+            "videoUrl": "https://www.youtube.com/watch?v=0VQ6tqZ5e5g",
             "materials": [
               {
                 "id": "mat-7-1",
@@ -763,6 +790,7 @@
             "completed": false,
             "locked": true,
             "order": 8,
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
             "materials": [
               {
                 "id": "mat-8-1",
@@ -788,6 +816,7 @@
             "completed": false,
             "locked": true,
             "order": 9,
+            "videoUrl": "https://www.youtube.com/watch?v=w7ejDZ8SWv8",
             "materials": [
               {
                 "id": "mat-9-1",
@@ -813,17 +842,18 @@
             "completed": false,
             "locked": true,
             "order": 10,
+            "videoUrl": "https://www.youtube.com/watch?v=0VQ6tqZ5e5g",
             "materials": [
               {
                 "id": "mat-10-1",
                 "name": "Lesson_10_Slides.pdf",
-                "size": "2.4 MB",
+                "size": "1.8 MB",
                 "url": "/api/download/materials/Lesson_10_Slides.pdf"
               },
               {
                 "id": "mat-10-2",
                 "name": "Source_Code_10.zip",
-                "size": "156 KB",
+                "size": "89 KB",
                 "url": "/api/download/materials/Source_Code_10.zip"
               }
             ]
@@ -838,6 +868,7 @@
             "completed": false,
             "locked": true,
             "order": 11,
+            "videoUrl": "https://www.youtube.com/watch?v=AT1qQ6u7Yj8",
             "materials": [
               {
                 "id": "mat-11-1",
@@ -863,6 +894,7 @@
             "completed": false,
             "locked": true,
             "order": 12,
+            "videoUrl": "https://www.youtube.com/watch?v=Kx7xW9lFf7k",
             "materials": [
               {
                 "id": "mat-12-1",
@@ -877,13 +909,7 @@
                 "url": "/api/download/materials/Source_Code_12.zip"
               }
             ]
-          }
-        ]
-      },
-      {
-        "id": "m2",
-        "title": "Module 2: Event-Driven Systems & Scaling",
-        "lessons": [
+          },
           {
             "id": "l-13",
             "title": "Async Messaging with RabbitMQ",
@@ -894,6 +920,7 @@
             "completed": false,
             "locked": true,
             "order": 13,
+            "videoUrl": "https://www.youtube.com/watch?v=QeD3uG7rj5U",
             "materials": [
               {
                 "id": "mat-13-1",
@@ -919,6 +946,7 @@
             "completed": false,
             "locked": true,
             "order": 14,
+            "videoUrl": "https://www.youtube.com/watch?v=0VQ6tqZ5e5g",
             "materials": [
               {
                 "id": "mat-14-1",
@@ -944,6 +972,7 @@
             "completed": false,
             "locked": true,
             "order": 15,
+            "videoUrl": "https://www.youtube.com/watch?v=f8Qqg0z4R3c",
             "materials": [
               {
                 "id": "mat-15-1",
@@ -969,6 +998,7 @@
             "completed": false,
             "locked": true,
             "order": 16,
+            "videoUrl": "https://www.youtube.com/watch?v=3aE9uGzX9eE",
             "materials": [
               {
                 "id": "mat-16-1",
@@ -994,6 +1024,7 @@
             "completed": false,
             "locked": true,
             "order": 17,
+            "videoUrl": "https://www.youtube.com/watch?v=AT1qQ6u7Yj8",
             "materials": [
               {
                 "id": "mat-17-1",
@@ -1019,6 +1050,7 @@
             "completed": false,
             "locked": true,
             "order": 18,
+            "videoUrl": "https://www.youtube.com/watch?v=QeD3uG7rj5U",
             "materials": [
               {
                 "id": "mat-18-1",
@@ -1044,6 +1076,7 @@
             "completed": false,
             "locked": true,
             "order": 19,
+            "videoUrl": "https://www.youtube.com/watch?v=UB1O30fR-EE",
             "materials": [
               {
                 "id": "mat-19-1",
@@ -1069,6 +1102,7 @@
             "completed": false,
             "locked": true,
             "order": 20,
+            "videoUrl": "https://www.youtube.com/watch?v=HhL0ZpS9zYc",
             "materials": [
               {
                 "id": "mat-20-1",
@@ -1094,6 +1128,7 @@
             "completed": false,
             "locked": true,
             "order": 21,
+            "videoUrl": "https://www.youtube.com/watch?v=Kx7xW9lFf7k",
             "materials": [
               {
                 "id": "mat-21-1",
@@ -1119,6 +1154,7 @@
             "completed": false,
             "locked": true,
             "order": 22,
+            "videoUrl": "https://www.youtube.com/watch?v=Kj11x3sXvPI",
             "materials": [
               {
                 "id": "mat-22-1",
@@ -1144,6 +1180,7 @@
             "completed": false,
             "locked": true,
             "order": 23,
+            "videoUrl": "https://www.youtube.com/watch?v=sBws8MSXN7A",
             "materials": [
               {
                 "id": "mat-23-1",
@@ -1169,6 +1206,7 @@
             "completed": false,
             "locked": true,
             "order": 24,
+            "videoUrl": "https://www.youtube.com/watch?v=3JluqTojuME",
             "materials": [
               {
                 "id": "mat-24-1",
@@ -1217,6 +1255,7 @@
             "completed": false,
             "locked": false,
             "order": 1,
+            "videoUrl": "https://www.youtube.com/watch?v=Ke90Tje7VS0",
             "materials": [
               {
                 "id": "mat-1-1",
@@ -1242,6 +1281,7 @@
             "completed": false,
             "locked": true,
             "order": 2,
+            "videoUrl": "https://www.youtube.com/watch?v=UB1O30fR-EE",
             "materials": [
               {
                 "id": "mat-2-1",
@@ -1267,6 +1307,7 @@
             "completed": false,
             "locked": true,
             "order": 3,
+            "videoUrl": "https://www.youtube.com/watch?v=3JluqTojuME",
             "materials": [
               {
                 "id": "mat-3-1",
@@ -1292,6 +1333,7 @@
             "completed": false,
             "locked": true,
             "order": 4,
+            "videoUrl": "https://www.youtube.com/watch?v=f8Qqg0z4R3c",
             "materials": [
               {
                 "id": "mat-4-1",
@@ -1317,6 +1359,7 @@
             "completed": false,
             "locked": true,
             "order": 5,
+            "videoUrl": "https://www.youtube.com/watch?v=3JluqTojuME",
             "materials": [
               {
                 "id": "mat-5-1",
@@ -1342,6 +1385,7 @@
             "completed": false,
             "locked": true,
             "order": 6,
+            "videoUrl": "https://www.youtube.com/watch?v=AT1qQ6u7Yj8",
             "materials": [
               {
                 "id": "mat-6-1",
@@ -1367,6 +1411,7 @@
             "completed": false,
             "locked": true,
             "order": 7,
+            "videoUrl": "https://www.youtube.com/watch?v=JIbIYCM48to",
             "materials": [
               {
                 "id": "mat-7-1",
@@ -1398,6 +1443,7 @@
             "completed": false,
             "locked": true,
             "order": 8,
+            "videoUrl": "https://www.youtube.com/watch?v=Oe421EPjeBE",
             "materials": [
               {
                 "id": "mat-8-1",
@@ -1423,6 +1469,7 @@
             "completed": false,
             "locked": true,
             "order": 9,
+            "videoUrl": "https://www.youtube.com/watch?v=sBws8MSXN7A",
             "materials": [
               {
                 "id": "mat-9-1",
@@ -1448,6 +1495,7 @@
             "completed": false,
             "locked": true,
             "order": 10,
+            "videoUrl": "https://www.youtube.com/watch?v=Oe421EPjeBE",
             "materials": [
               {
                 "id": "mat-10-1",
@@ -1473,6 +1521,7 @@
             "completed": false,
             "locked": true,
             "order": 11,
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
             "materials": [
               {
                 "id": "mat-11-1",
@@ -1498,6 +1547,7 @@
             "completed": false,
             "locked": true,
             "order": 12,
+            "videoUrl": "https://www.youtube.com/watch?v=UB1O30fR-EE",
             "materials": [
               {
                 "id": "mat-12-1",
@@ -1523,6 +1573,7 @@
             "completed": false,
             "locked": true,
             "order": 13,
+            "videoUrl": "https://www.youtube.com/watch?v=F9s0rjKcJfY",
             "materials": [
               {
                 "id": "mat-13-1",
@@ -1548,6 +1599,7 @@
             "completed": false,
             "locked": true,
             "order": 14,
+            "videoUrl": "https://www.youtube.com/watch?v=Y8K9v5c8R3I",
             "materials": [
               {
                 "id": "mat-14-1",
@@ -1573,6 +1625,7 @@
             "completed": false,
             "locked": true,
             "order": 15,
+            "videoUrl": "https://www.youtube.com/watch?v=ulprqHHWlng",
             "materials": [
               {
                 "id": "mat-15-1",
@@ -1621,6 +1674,7 @@
             "completed": true,
             "locked": false,
             "order": 1,
+            "videoUrl": "https://www.youtube.com/watch?v=eOBq__h4OJ4",
             "materials": [
               {
                 "id": "mat-1-1",
@@ -1646,6 +1700,7 @@
             "completed": true,
             "locked": false,
             "order": 2,
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
             "materials": [
               {
                 "id": "mat-2-1",
@@ -1671,6 +1726,7 @@
             "completed": true,
             "locked": false,
             "order": 3,
+            "videoUrl": "https://www.youtube.com/watch?v=Ke90Tje7VS0",
             "materials": [
               {
                 "id": "mat-3-1",
@@ -1696,6 +1752,7 @@
             "completed": true,
             "locked": false,
             "order": 4,
+            "videoUrl": "https://www.youtube.com/watch?v=JIbIYCM48to",
             "materials": [
               {
                 "id": "mat-4-1",
@@ -1721,6 +1778,7 @@
             "completed": true,
             "locked": false,
             "order": 5,
+            "videoUrl": "https://www.youtube.com/watch?v=Kx7xW9lFf7k",
             "materials": [
               {
                 "id": "mat-5-1",
@@ -1746,6 +1804,7 @@
             "completed": true,
             "locked": false,
             "order": 6,
+            "videoUrl": "https://www.youtube.com/watch?v=77lMCiiMilo",
             "materials": [
               {
                 "id": "mat-6-1",
@@ -1771,6 +1830,7 @@
             "completed": true,
             "locked": false,
             "order": 7,
+            "videoUrl": "https://www.youtube.com/watch?v=Kx7xW9lFf7k",
             "materials": [
               {
                 "id": "mat-7-1",
@@ -1796,6 +1856,7 @@
             "completed": true,
             "locked": false,
             "order": 8,
+            "videoUrl": "https://www.youtube.com/watch?v=s5KXoZP_0u8",
             "materials": [
               {
                 "id": "mat-8-1",
@@ -1821,6 +1882,7 @@
             "completed": true,
             "locked": false,
             "order": 9,
+            "videoUrl": "https://www.youtube.com/watch?v=9zvQ2sF7lZ8",
             "materials": [
               {
                 "id": "mat-9-1",
@@ -1852,6 +1914,7 @@
             "completed": true,
             "locked": false,
             "order": 10,
+            "videoUrl": "https://www.youtube.com/watch?v=JIbIYCM48to",
             "materials": [
               {
                 "id": "mat-10-1",
@@ -1877,6 +1940,7 @@
             "completed": true,
             "locked": false,
             "order": 11,
+            "videoUrl": "https://www.youtube.com/watch?v=3aE9uGzX9eE",
             "materials": [
               {
                 "id": "mat-11-1",
@@ -1902,6 +1966,7 @@
             "completed": true,
             "locked": false,
             "order": 12,
+            "videoUrl": "https://www.youtube.com/watch?v=JIbIYCM48to",
             "materials": [
               {
                 "id": "mat-12-1",
@@ -1927,6 +1992,7 @@
             "completed": true,
             "locked": false,
             "order": 13,
+            "videoUrl": "https://www.youtube.com/watch?v=JIbIYCM48to",
             "materials": [
               {
                 "id": "mat-13-1",
@@ -1952,6 +2018,7 @@
             "completed": false,
             "locked": false,
             "order": 14,
+            "videoUrl": "https://www.youtube.com/watch?v=AT1qQ6u7Yj8",
             "materials": [
               {
                 "id": "mat-14-1",
@@ -1965,8 +2032,7 @@
                 "size": "89 KB",
                 "url": "/api/download/materials/Source_Code_14.zip"
               }
-            ],
-            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            ]
           },
           {
             "id": "l-15",
@@ -1978,6 +2044,7 @@
             "completed": false,
             "locked": true,
             "order": 15,
+            "videoUrl": "https://www.youtube.com/watch?v=eOBq__h4OJ4",
             "materials": [
               {
                 "id": "mat-15-1",
@@ -2003,6 +2070,7 @@
             "completed": false,
             "locked": true,
             "order": 16,
+            "videoUrl": "https://www.youtube.com/watch?v=PH2y4cWmPjo",
             "materials": [
               {
                 "id": "mat-16-1",
@@ -2028,6 +2096,7 @@
             "completed": false,
             "locked": true,
             "order": 17,
+            "videoUrl": "https://www.youtube.com/watch?v=GXzS5O0a6jQ",
             "materials": [
               {
                 "id": "mat-17-1",
@@ -2053,6 +2122,7 @@
             "completed": false,
             "locked": true,
             "order": 18,
+            "videoUrl": "https://www.youtube.com/watch?v=sBws8MSXN7A",
             "materials": [
               {
                 "id": "mat-18-1",
@@ -2101,6 +2171,7 @@
             "completed": true,
             "locked": false,
             "order": 1,
+            "videoUrl": "https://www.youtube.com/watch?v=3aE9uGzX9eE",
             "materials": [
               {
                 "id": "mat-1-1",
@@ -2126,6 +2197,7 @@
             "completed": false,
             "locked": false,
             "order": 2,
+            "videoUrl": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
             "materials": [
               {
                 "id": "mat-2-1",
@@ -2151,6 +2223,7 @@
             "completed": false,
             "locked": true,
             "order": 3,
+            "videoUrl": "https://www.youtube.com/watch?v=ulprqHHWlng",
             "materials": [
               {
                 "id": "mat-3-1",
@@ -2176,6 +2249,7 @@
             "completed": false,
             "locked": true,
             "order": 4,
+            "videoUrl": "https://www.youtube.com/watch?v=2LaAJq1lB1Q",
             "materials": [
               {
                 "id": "mat-4-1",
@@ -2201,6 +2275,7 @@
             "completed": false,
             "locked": true,
             "order": 5,
+            "videoUrl": "https://www.youtube.com/watch?v=3JluqTojuME",
             "materials": [
               {
                 "id": "mat-5-1",
@@ -2232,6 +2307,7 @@
             "completed": false,
             "locked": true,
             "order": 6,
+            "videoUrl": "https://www.youtube.com/watch?v=F9s0rjKcJfY",
             "materials": [
               {
                 "id": "mat-6-1",
@@ -2257,6 +2333,7 @@
             "completed": false,
             "locked": true,
             "order": 7,
+            "videoUrl": "https://www.youtube.com/watch?v=ulprqHHWlng",
             "materials": [
               {
                 "id": "mat-7-1",
@@ -2282,6 +2359,7 @@
             "completed": false,
             "locked": true,
             "order": 8,
+            "videoUrl": "https://www.youtube.com/watch?v=AT1qQ6u7Yj8",
             "materials": [
               {
                 "id": "mat-8-1",
@@ -2307,6 +2385,7 @@
             "completed": false,
             "locked": true,
             "order": 9,
+            "videoUrl": "https://www.youtube.com/watch?v=Kj11x3sXvPI",
             "materials": [
               {
                 "id": "mat-9-1",
@@ -2332,6 +2411,7 @@
             "completed": false,
             "locked": true,
             "order": 10,
+            "videoUrl": "https://www.youtube.com/watch?v=Oe421EPjeBE",
             "materials": [
               {
                 "id": "mat-10-1",
@@ -2381,6 +2461,7 @@
             "completed": true,
             "locked": false,
             "order": 1,
+            "videoUrl": "https://www.youtube.com/watch?v=PH2y4cWmPjo",
             "materials": [
               {
                 "id": "mat-1-1",
@@ -2406,6 +2487,7 @@
             "completed": true,
             "locked": false,
             "order": 2,
+            "videoUrl": "https://www.youtube.com/watch?v=JIbIYCM48to",
             "materials": [
               {
                 "id": "mat-2-1",
@@ -2431,6 +2513,7 @@
             "completed": true,
             "locked": false,
             "order": 3,
+            "videoUrl": "https://www.youtube.com/watch?v=Hc9tP8Ywq2E",
             "materials": [
               {
                 "id": "mat-3-1",
@@ -2456,6 +2539,7 @@
             "completed": true,
             "locked": false,
             "order": 4,
+            "videoUrl": "https://www.youtube.com/watch?v=f8Qqg0z4R3c",
             "materials": [
               {
                 "id": "mat-4-1",
@@ -2481,6 +2565,7 @@
             "completed": false,
             "locked": false,
             "order": 5,
+            "videoUrl": "https://www.youtube.com/watch?v=JIbIYCM48to",
             "materials": [
               {
                 "id": "mat-5-1",
@@ -2506,6 +2591,7 @@
             "completed": false,
             "locked": true,
             "order": 6,
+            "videoUrl": "https://www.youtube.com/watch?v=3aE9uGzX9eE",
             "materials": [
               {
                 "id": "mat-6-1",
@@ -2531,6 +2617,7 @@
             "completed": false,
             "locked": true,
             "order": 7,
+            "videoUrl": "https://www.youtube.com/watch?v=Hc9tP8Ywq2E",
             "materials": [
               {
                 "id": "mat-7-1",
@@ -2562,6 +2649,7 @@
             "completed": false,
             "locked": true,
             "order": 8,
+            "videoUrl": "https://www.youtube.com/watch?v=JIbIYCM48to",
             "materials": [
               {
                 "id": "mat-8-1",
@@ -2587,6 +2675,7 @@
             "completed": false,
             "locked": true,
             "order": 9,
+            "videoUrl": "https://www.youtube.com/watch?v=7tP3YfT9E5k",
             "materials": [
               {
                 "id": "mat-9-1",
@@ -2612,6 +2701,7 @@
             "completed": false,
             "locked": true,
             "order": 10,
+            "videoUrl": "https://www.youtube.com/watch?v=f8Qqg0z4R3c",
             "materials": [
               {
                 "id": "mat-10-1",
@@ -2637,6 +2727,7 @@
             "completed": false,
             "locked": true,
             "order": 11,
+            "videoUrl": "https://www.youtube.com/watch?v=Ke90Tje7VS0",
             "materials": [
               {
                 "id": "mat-11-1",
@@ -2662,6 +2753,7 @@
             "completed": false,
             "locked": true,
             "order": 12,
+            "videoUrl": "https://www.youtube.com/watch?v=Hc9tP8Ywq2E",
             "materials": [
               {
                 "id": "mat-12-1",
@@ -2687,6 +2779,7 @@
             "completed": false,
             "locked": true,
             "order": 13,
+            "videoUrl": "https://www.youtube.com/watch?v=Y8K9v5c8R3I",
             "materials": [
               {
                 "id": "mat-13-1",
@@ -2712,6 +2805,7 @@
             "completed": false,
             "locked": true,
             "order": 14,
+            "videoUrl": "https://www.youtube.com/watch?v=Y8K9v5c8R3I",
             "materials": [
               {
                 "id": "mat-14-1",
@@ -2760,6 +2854,7 @@
             "completed": true,
             "locked": false,
             "order": 1,
+            "videoUrl": "https://www.youtube.com/watch?v=Oe421EPjeBE",
             "materials": [
               {
                 "id": "mat-1-1",
@@ -2785,6 +2880,7 @@
             "completed": true,
             "locked": false,
             "order": 2,
+            "videoUrl": "https://www.youtube.com/watch?v=AT1qQ6u7Yj8",
             "materials": [
               {
                 "id": "mat-2-1",
@@ -2810,6 +2906,7 @@
             "completed": true,
             "locked": false,
             "order": 3,
+            "videoUrl": "https://www.youtube.com/watch?v=3aE9uGzX9eE",
             "materials": [
               {
                 "id": "mat-3-1",
@@ -2835,6 +2932,7 @@
             "completed": true,
             "locked": false,
             "order": 4,
+            "videoUrl": "https://www.youtube.com/watch?v=Oe421EPjeBE",
             "materials": [
               {
                 "id": "mat-4-1",
@@ -2860,6 +2958,7 @@
             "completed": true,
             "locked": false,
             "order": 5,
+            "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
             "materials": [
               {
                 "id": "mat-5-1",
@@ -2885,6 +2984,7 @@
             "completed": true,
             "locked": false,
             "order": 6,
+            "videoUrl": "https://www.youtube.com/watch?v=Y8K9v5c8R3I",
             "materials": [
               {
                 "id": "mat-6-1",
@@ -2910,6 +3010,7 @@
             "completed": true,
             "locked": false,
             "order": 7,
+            "videoUrl": "https://www.youtube.com/watch?v=eOBq__h4OJ4",
             "materials": [
               {
                 "id": "mat-7-1",
@@ -2935,6 +3036,7 @@
             "completed": true,
             "locked": false,
             "order": 8,
+            "videoUrl": "https://www.youtube.com/watch?v=f8Qqg0z4R3c",
             "materials": [
               {
                 "id": "mat-8-1",
@@ -2960,6 +3062,7 @@
             "completed": true,
             "locked": false,
             "order": 9,
+            "videoUrl": "https://www.youtube.com/watch?v=JIbIYCM48to",
             "materials": [
               {
                 "id": "mat-9-1",
@@ -2985,6 +3088,7 @@
             "completed": true,
             "locked": false,
             "order": 10,
+            "videoUrl": "https://www.youtube.com/watch?v=sBws8MSXN7A",
             "materials": [
               {
                 "id": "mat-10-1",
@@ -2999,13 +3103,7 @@
                 "url": "/api/download/materials/Source_Code_10.zip"
               }
             ]
-          }
-        ]
-      },
-      {
-        "id": "m2",
-        "title": "Module 2: Advanced State & Deployment",
-        "lessons": [
+          },
           {
             "id": "l-11",
             "title": "State Management with BLoC",
@@ -3016,6 +3114,7 @@
             "completed": false,
             "locked": false,
             "order": 11,
+            "videoUrl": "https://www.youtube.com/watch?v=Oe421EPjeBE",
             "materials": [
               {
                 "id": "mat-11-1",
@@ -3029,8 +3128,7 @@
                 "size": "89 KB",
                 "url": "/api/download/materials/Source_Code_11.zip"
               }
-            ],
-            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            ]
           },
           {
             "id": "l-12",
@@ -3042,6 +3140,7 @@
             "completed": false,
             "locked": true,
             "order": 12,
+            "videoUrl": "https://www.youtube.com/watch?v=f8Qqg0z4R3c",
             "materials": [
               {
                 "id": "mat-12-1",
@@ -3067,6 +3166,7 @@
             "completed": false,
             "locked": true,
             "order": 13,
+            "videoUrl": "https://www.youtube.com/watch?v=F9s0rjKcJfY",
             "materials": [
               {
                 "id": "mat-13-1",
@@ -3092,6 +3192,7 @@
             "completed": false,
             "locked": true,
             "order": 14,
+            "videoUrl": "https://www.youtube.com/watch?v=dGcsHMXbSOA",
             "materials": [
               {
                 "id": "mat-14-1",
@@ -3117,6 +3218,7 @@
             "completed": false,
             "locked": true,
             "order": 15,
+            "videoUrl": "https://www.youtube.com/watch?v=f8Qqg0z4R3c",
             "materials": [
               {
                 "id": "mat-15-1",
@@ -3142,6 +3244,7 @@
             "completed": false,
             "locked": true,
             "order": 16,
+            "videoUrl": "https://www.youtube.com/watch?v=w7ejDZ8SWv8",
             "materials": [
               {
                 "id": "mat-16-1",
@@ -3167,6 +3270,7 @@
             "completed": false,
             "locked": true,
             "order": 17,
+            "videoUrl": "https://www.youtube.com/watch?v=eOBq__h4OJ4",
             "materials": [
               {
                 "id": "mat-17-1",
@@ -3192,6 +3296,7 @@
             "completed": false,
             "locked": true,
             "order": 18,
+            "videoUrl": "https://www.youtube.com/watch?v=sBws8MSXN7A",
             "materials": [
               {
                 "id": "mat-18-1",
@@ -3217,6 +3322,7 @@
             "completed": false,
             "locked": true,
             "order": 19,
+            "videoUrl": "https://www.youtube.com/watch?v=F9s0rjKcJfY",
             "materials": [
               {
                 "id": "mat-19-1",
@@ -3242,6 +3348,7 @@
             "completed": false,
             "locked": true,
             "order": 20,
+            "videoUrl": "https://www.youtube.com/watch?v=w7ejDZ8SWv8",
             "materials": [
               {
                 "id": "mat-20-1",
@@ -3291,6 +3398,7 @@
             "completed": true,
             "locked": false,
             "order": 1,
+            "videoUrl": "https://www.youtube.com/watch?v=Y8K9v5c8R3I",
             "materials": [
               {
                 "id": "mat-1-1",
@@ -3316,6 +3424,7 @@
             "completed": true,
             "locked": false,
             "order": 2,
+            "videoUrl": "https://www.youtube.com/watch?v=AT1qQ6u7Yj8",
             "materials": [
               {
                 "id": "mat-2-1",
@@ -3341,6 +3450,7 @@
             "completed": false,
             "locked": false,
             "order": 3,
+            "videoUrl": "https://www.youtube.com/watch?v=AT1qQ6u7Yj8",
             "materials": [
               {
                 "id": "mat-3-1",
@@ -3366,6 +3476,7 @@
             "completed": false,
             "locked": true,
             "order": 4,
+            "videoUrl": "https://www.youtube.com/watch?v=3JluqTojuME",
             "materials": [
               {
                 "id": "mat-4-1",
@@ -3391,6 +3502,7 @@
             "completed": false,
             "locked": true,
             "order": 5,
+            "videoUrl": "https://www.youtube.com/watch?v=77lMCiiMilo",
             "materials": [
               {
                 "id": "mat-5-1",
@@ -3416,6 +3528,7 @@
             "completed": false,
             "locked": true,
             "order": 6,
+            "videoUrl": "https://www.youtube.com/watch?v=HhL0ZpS9zYc",
             "materials": [
               {
                 "id": "mat-6-1",
@@ -3441,6 +3554,7 @@
             "completed": false,
             "locked": true,
             "order": 7,
+            "videoUrl": "https://www.youtube.com/watch?v=f8Qqg0z4R3c",
             "materials": [
               {
                 "id": "mat-7-1",
@@ -3466,6 +3580,7 @@
             "completed": false,
             "locked": true,
             "order": 8,
+            "videoUrl": "https://www.youtube.com/watch?v=eOBq__h4OJ4",
             "materials": [
               {
                 "id": "mat-8-1",
@@ -3497,6 +3612,7 @@
             "completed": false,
             "locked": true,
             "order": 9,
+            "videoUrl": "https://www.youtube.com/watch?v=0VQ6tqZ5e5g",
             "materials": [
               {
                 "id": "mat-9-1",
@@ -3522,6 +3638,7 @@
             "completed": false,
             "locked": true,
             "order": 10,
+            "videoUrl": "https://www.youtube.com/watch?v=77lMCiiMilo",
             "materials": [
               {
                 "id": "mat-10-1",
@@ -3547,6 +3664,7 @@
             "completed": false,
             "locked": true,
             "order": 11,
+            "videoUrl": "https://www.youtube.com/watch?v=0VQ6tqZ5e5g",
             "materials": [
               {
                 "id": "mat-11-1",
@@ -3572,6 +3690,7 @@
             "completed": false,
             "locked": true,
             "order": 12,
+            "videoUrl": "https://www.youtube.com/watch?v=Ke90Tje7VS0",
             "materials": [
               {
                 "id": "mat-12-1",
@@ -3597,6 +3716,7 @@
             "completed": false,
             "locked": true,
             "order": 13,
+            "videoUrl": "https://www.youtube.com/watch?v=UB1O30fR-EE",
             "materials": [
               {
                 "id": "mat-13-1",
@@ -3622,6 +3742,7 @@
             "completed": false,
             "locked": true,
             "order": 14,
+            "videoUrl": "https://www.youtube.com/watch?v=9zvQ2sF7lZ8",
             "materials": [
               {
                 "id": "mat-14-1",
@@ -3647,6 +3768,7 @@
             "completed": false,
             "locked": true,
             "order": 15,
+            "videoUrl": "https://www.youtube.com/watch?v=QeD3uG7rj5U",
             "materials": [
               {
                 "id": "mat-15-1",
@@ -3672,6 +3794,7 @@
             "completed": false,
             "locked": true,
             "order": 16,
+            "videoUrl": "https://www.youtube.com/watch?v=s5KXoZP_0u8",
             "materials": [
               {
                 "id": "mat-16-1",
@@ -3720,6 +3843,7 @@
             "completed": false,
             "locked": false,
             "order": 1,
+            "videoUrl": "https://www.youtube.com/watch?v=QeD3uG7rj5U",
             "materials": [
               {
                 "id": "mat-1-1",
@@ -3745,6 +3869,7 @@
             "completed": false,
             "locked": true,
             "order": 2,
+            "videoUrl": "https://www.youtube.com/watch?v=eOBq__h4OJ4",
             "materials": [
               {
                 "id": "mat-2-1",
@@ -3770,6 +3895,7 @@
             "completed": false,
             "locked": true,
             "order": 3,
+            "videoUrl": "https://www.youtube.com/watch?v=Oe421EPjeBE",
             "materials": [
               {
                 "id": "mat-3-1",
@@ -3795,6 +3921,7 @@
             "completed": false,
             "locked": true,
             "order": 4,
+            "videoUrl": "https://www.youtube.com/watch?v=3JluqTojuME",
             "materials": [
               {
                 "id": "mat-4-1",
@@ -3820,6 +3947,7 @@
             "completed": false,
             "locked": true,
             "order": 5,
+            "videoUrl": "https://www.youtube.com/watch?v=f8Qqg0z4R3c",
             "materials": [
               {
                 "id": "mat-5-1",
@@ -3845,6 +3973,7 @@
             "completed": false,
             "locked": true,
             "order": 6,
+            "videoUrl": "https://www.youtube.com/watch?v=Oe421EPjeBE",
             "materials": [
               {
                 "id": "mat-6-1",
@@ -3870,6 +3999,7 @@
             "completed": false,
             "locked": true,
             "order": 7,
+            "videoUrl": "https://www.youtube.com/watch?v=eOBq__h4OJ4",
             "materials": [
               {
                 "id": "mat-7-1",
@@ -3895,6 +4025,7 @@
             "completed": false,
             "locked": true,
             "order": 8,
+            "videoUrl": "https://www.youtube.com/watch?v=Ke90Tje7VS0",
             "materials": [
               {
                 "id": "mat-8-1",
@@ -3920,6 +4051,7 @@
             "completed": false,
             "locked": true,
             "order": 9,
+            "videoUrl": "https://www.youtube.com/watch?v=Oe421EPjeBE",
             "materials": [
               {
                 "id": "mat-9-1",
@@ -3945,6 +4077,7 @@
             "completed": false,
             "locked": true,
             "order": 10,
+            "videoUrl": "https://www.youtube.com/watch?v=AT1qQ6u7Yj8",
             "materials": [
               {
                 "id": "mat-10-1",
@@ -3970,6 +4103,7 @@
             "completed": false,
             "locked": true,
             "order": 11,
+            "videoUrl": "https://www.youtube.com/watch?v=Kx7xW9lFf7k",
             "materials": [
               {
                 "id": "mat-11-1",
@@ -4001,6 +4135,7 @@
             "completed": false,
             "locked": true,
             "order": 12,
+            "videoUrl": "https://www.youtube.com/watch?v=3JluqTojuME",
             "materials": [
               {
                 "id": "mat-12-1",
@@ -4026,6 +4161,7 @@
             "completed": false,
             "locked": true,
             "order": 13,
+            "videoUrl": "https://www.youtube.com/watch?v=77lMCiiMilo",
             "materials": [
               {
                 "id": "mat-13-1",
@@ -4051,6 +4187,7 @@
             "completed": false,
             "locked": true,
             "order": 14,
+            "videoUrl": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
             "materials": [
               {
                 "id": "mat-14-1",
@@ -4076,6 +4213,7 @@
             "completed": false,
             "locked": true,
             "order": 15,
+            "videoUrl": "https://www.youtube.com/watch?v=Hc9tP8Ywq2E",
             "materials": [
               {
                 "id": "mat-15-1",
@@ -4101,6 +4239,7 @@
             "completed": false,
             "locked": true,
             "order": 16,
+            "videoUrl": "https://www.youtube.com/watch?v=3JluqTojuME",
             "materials": [
               {
                 "id": "mat-16-1",
@@ -4126,6 +4265,7 @@
             "completed": false,
             "locked": true,
             "order": 17,
+            "videoUrl": "https://www.youtube.com/watch?v=sBws8MSXN7A",
             "materials": [
               {
                 "id": "mat-17-1",
@@ -4151,6 +4291,7 @@
             "completed": false,
             "locked": true,
             "order": 18,
+            "videoUrl": "https://www.youtube.com/watch?v=JIbIYCM48to",
             "materials": [
               {
                 "id": "mat-18-1",
@@ -4176,6 +4317,7 @@
             "completed": false,
             "locked": true,
             "order": 19,
+            "videoUrl": "https://www.youtube.com/watch?v=Kj11x3sXvPI",
             "materials": [
               {
                 "id": "mat-19-1",
@@ -4201,6 +4343,7 @@
             "completed": false,
             "locked": true,
             "order": 20,
+            "videoUrl": "https://www.youtube.com/watch?v=dGcsHMXbSOA",
             "materials": [
               {
                 "id": "mat-20-1",
@@ -4226,6 +4369,7 @@
             "completed": false,
             "locked": true,
             "order": 21,
+            "videoUrl": "https://www.youtube.com/watch?v=F9s0rjKcJfY",
             "materials": [
               {
                 "id": "mat-21-1",
@@ -4251,6 +4395,7 @@
             "completed": false,
             "locked": true,
             "order": 22,
+            "videoUrl": "https://www.youtube.com/watch?v=sBws8MSXN7A",
             "materials": [
               {
                 "id": "mat-22-1",
