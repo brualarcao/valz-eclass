@@ -4,7 +4,7 @@
   <img src="public/valz-icon.png" alt="Valz eClass" width="80" />
 </p>
 
-**Valz eClass** é uma plataforma de vídeo-aulas para visualização de cursos e aulas em vídeo. Oferece login, dashboard de cursos com busca e filtros, e páginas de detalhe de curso com player de vídeo, sidebar de lições e materiais para download.
+**Valz eClass** é uma plataforma de estudos para visualização de cursos com vídeo aulas onde oferece login, dashboard de cursos com busca, filtros, e páginas de detalhes do curso com player de vídeo, sidebar de lições e materiais para download.
 
 ---
 
@@ -49,7 +49,7 @@ O desenvolvimento deste projeto seguiu um fluxo focado em escalabilidade, fideli
 🎨 Design e Identidade Visual
 O processo iniciou-se com uma análise do site atual da [ValzDigital](https://valzdigital.com/), utilizado como referência primária para a definição da paleta de cores e identidade visual.
 
-Concepção: Com as diretrizes visuais em mãos, utilizei o Stitch Design AI para a geração das telas. Isso permitiu estabelecer um Norte claro para o desenvolvimento, garantindo que o Design System fosse consistente desde o primeiro componente.
+Concepção: Com as diretrizes visuais em mãos, utilizei o Stitch Design AI para a geração das telas e consolidar no Figma. Isso permitiu estabelecer um Norte claro para o desenvolvimento, garantindo que o Design System fosse consistente desde o primeiro componente.
 
 Estilização: Optou-se pelo Tailwind CSS, unindo a agilidade de desenvolvimento por classes utilitárias à conformidade com os requisitos técnicos propostos.
 
@@ -121,7 +121,7 @@ Em desenvolvimento você pode usar apenas `NUXT_LOGIN_EMAIL` e `NUXT_LOGIN_PASSW
 
 ## Desenvolvimento e build
 
-### Por que rodar `predev` antes de tudo
+### Porque rodar `predev` antes de tudo
 
 O script `npm run predev` popula a pasta `public/data/` a partir de `server/mocks/courses.json`: gera `courses.json`, `auth.json` e um arquivo por curso em `public/data/courses/<id>.json`. Sem isso, a aplicação em dev (e o generate) não terá dados para listar cursos nem credenciais para o login. Execute pelo menos uma vez antes de `npm run dev`; o `generate` já inclui esse passo.
 
